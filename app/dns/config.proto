@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package xray.app.dns;
+package app.dns;
 option csharp_namespace = "Xray.App.Dns";
 option go_package = "github.com/xtls/xray-core/app/dns";
 option java_package = "com.xray.app.dns";
@@ -10,7 +10,7 @@ import "common/net/destination.proto";
 import "app/router/config.proto";
 
 message NameServer {
-  xray.common.net.Endpoint address = 1;
+  common.net.Endpoint address = 1;
   bytes client_ip = 5;
   bool skipFallback = 6;
 
@@ -25,7 +25,7 @@ message NameServer {
   }
 
   repeated PriorityDomain prioritized_domain = 2;
-  repeated xray.app.router.GeoIP geoip = 3;
+  repeated app.router.GeoIP geoip = 3;
   repeated OriginalRule original_rules = 4;
   QueryStrategy query_strategy = 7;
 }

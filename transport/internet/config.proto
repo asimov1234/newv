@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package xray.transport.internet;
+package transport.internet;
 option csharp_namespace = "Xray.Transport.Internet";
 option go_package = "github.com/xtls/xray-core/transport/internet";
 option java_package = "com.xray.transport.internet";
@@ -32,7 +32,7 @@ message TransportConfig {
 }
 
 message StreamConfig {
-  xray.common.net.IPOrDomain address = 8;
+  common.net.IPOrDomain address = 8;
   uint32 port = 9;
 
   // Effective network.

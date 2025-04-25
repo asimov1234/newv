@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package xray.app.router;
+package app.router;
 option csharp_namespace = "Xray.App.Router";
 option go_package = "github.com/xtls/xray-core/app/router";
 option java_package = "com.xray.app.router";
@@ -91,17 +91,17 @@ message RoutingRule {
   repeated GeoIP geoip = 10;
 
   // List of ports.
-  xray.common.net.PortList port_list = 14;
+  common.net.PortList port_list = 14;
 
   // List of networks for matching.
-  repeated xray.common.net.Network networks = 13;
+  repeated common.net.Network networks = 13;
 
   // List of GeoIPs for source IP address matching. If this entry exists, the
   // source_cidr above will have no effect.
   repeated GeoIP source_geoip = 11;
 
   // List of ports for source port matching.
-  xray.common.net.PortList source_port_list = 16;
+  common.net.PortList source_port_list = 16;
 
   repeated string user_email = 7;
   repeated string inbound_tag = 8;

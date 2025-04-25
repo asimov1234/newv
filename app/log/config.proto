@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package xray.app.log;
+package app.log;
 option csharp_namespace = "Xray.App.Log";
 option go_package = "github.com/xtls/xray-core/app/log";
 option java_package = "com.xray.app.log";
@@ -17,7 +17,7 @@ enum LogType {
 
 message Config {
   LogType error_log_type = 1;
-  xray.common.log.Severity error_log_level = 2;
+  common.log.Severity error_log_level = 2;
   string error_log_path = 3;
 
   LogType access_log_type = 4;

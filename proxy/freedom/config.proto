@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package xray.proxy.freedom;
+package proxy.freedom;
 option csharp_namespace = "Xray.Proxy.Freedom";
 option go_package = "github.com/xtls/xray-core/proxy/freedom";
 option java_package = "com.xray.proxy.freedom";
@@ -9,7 +9,7 @@ option java_multiple_files = true;
 import "common/protocol/server_spec.proto";
 
 message DestinationOverride {
-  xray.common.protocol.ServerEndpoint server = 1;
+  common.protocol.ServerEndpoint server = 1;
 }
 
 message Fragment {

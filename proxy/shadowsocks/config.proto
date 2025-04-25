@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package xray.proxy.shadowsocks;
+package proxy.shadowsocks;
 option csharp_namespace = "Xray.Proxy.Shadowsocks";
 option go_package = "github.com/xtls/xray-core/proxy/shadowsocks";
 option java_package = "com.xray.proxy.shadowsocks";
@@ -28,9 +28,9 @@ enum CipherType {
 
 message ServerConfig {
   repeated xray.common.protocol.User users = 1;
-  repeated xray.common.net.Network network = 2;
+  repeated common.net.Network network = 2;
 }
 
 message ClientConfig {
-  repeated xray.common.protocol.ServerEndpoint server = 1;
+  repeated common.protocol.ServerEndpoint server = 1;
 }

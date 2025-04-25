@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package xray.common.protocol;
+package common.protocol;
 option csharp_namespace = "Xray.Common.Protocol";
 option go_package = "github.com/xtls/xray-core/common/protocol";
 option java_package = "com.xray.common.protocol";

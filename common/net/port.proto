@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package xray.common.net;
+package common.net;
 option csharp_namespace = "Xray.Common.Net";
 option go_package = "github.com/xtls/xray-core/common/net";
 option java_package = "com.xray.common.net";

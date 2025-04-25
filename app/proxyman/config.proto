@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package xray.app.proxyman;
+package app.proxyman;
 option csharp_namespace = "Xray.App.Proxyman";
 option go_package = "github.com/xtls/xray-core/app/proxyman";
 option java_package = "com.xray.app.proxyman";
@@ -59,11 +59,11 @@ message SniffingConfig {
 
 message ReceiverConfig {
   // PortList specifies the ports which the Receiver should listen on.
-  xray.common.net.PortList port_list = 1;
+  common.net.PortList port_list = 1;
   // Listen specifies the IP address that the Receiver should listen on.
-  xray.common.net.IPOrDomain listen = 2;
+  common.net.IPOrDomain listen = 2;
   AllocationStrategy allocation_strategy = 3;
-  xray.transport.internet.StreamConfig stream_settings = 4;
+  transport.internet.StreamConfig stream_settings = 4;
   bool receive_original_destination = 5;
   reserved 6;
   SniffingConfig sniffing_settings = 7;
@@ -79,9 +79,9 @@ message OutboundConfig {}
 
 message SenderConfig {
   // Send traffic through the given IP. Only IP is allowed.
-  xray.common.net.IPOrDomain via = 1;
-  xray.transport.internet.StreamConfig stream_settings = 2;
-  xray.transport.internet.ProxyConfig proxy_settings = 3;
+  common.net.IPOrDomain via = 1;
+  transport.internet.StreamConfig stream_settings = 2;
+  transport.internet.ProxyConfig proxy_settings = 3;
   MultiplexingConfig multiplex_settings = 4;
   string via_cidr = 5;
 }
