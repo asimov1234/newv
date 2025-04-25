@@ -14,7 +14,7 @@ import "common/serial/typed_message.proto";
 // xray.features.routing.Route.
 message RoutingContext {
   string InboundTag = 1;
-  xray.common.net.Network Network = 2;
+  .common.net.Network Network = 2;
   repeated bytes SourceIPs = 3;
   repeated bytes TargetIPs = 4;
   uint32 SourcePort = 5;

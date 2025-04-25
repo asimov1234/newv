@@ -35,5 +35,5 @@ message Config {
   int64 scMaxBufferedPosts = 10;
   RangeConfig scStreamUpServerSecs = 11;
   XmuxConfig xmux = 12;
-  xray.transport.internet.StreamConfig downloadSettings = 13;
+  .transport.internet.StreamConfig downloadSettings = 13;
 }
