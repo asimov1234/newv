@@ -17,9 +17,9 @@ import (
 	"github.com/xtls/xray-core/common/serial"
 	"github.com/xtls/xray-core/transport/internet"
 	"github.com/xtls/xray-core/transport/internet/httpupgrade"
-	"github.com/xtls/xray-core/transport/internet/kcp"
+
 	"github.com/xtls/xray-core/transport/internet/reality"
-	"github.com/xtls/xray-core/transport/internet/splithttp"
+
 	"github.com/xtls/xray-core/transport/internet/tcp"
 	"github.com/xtls/xray-core/transport/internet/tls"
 	"github.com/xtls/xray-core/transport/internet/websocket"
@@ -27,95 +27,11 @@ import (
 )
 
 var (
-	kcpHeaderLoader = NewJSONConfigLoader(ConfigCreatorCache{
-		"none":         func() interface{} { return new(NoOpAuthenticator) },
-		"srtp":         func() interface{} { return new(SRTPAuthenticator) },
-		"utp":          func() interface{} { return new(UTPAuthenticator) },
-		"wechat-video": func() interface{} { return new(WechatVideoAuthenticator) },
-		"dtls":         func() interface{} { return new(DTLSAuthenticator) },
-		"wireguard":    func() interface{} { return new(WireguardAuthenticator) },
-		"dns":          func() interface{} { return new(DNSAuthenticator) },
-	}, "type", "")
-
 	tcpHeaderLoader = NewJSONConfigLoader(ConfigCreatorCache{
 		"none": func() interface{} { return new(NoOpConnectionAuthenticator) },
 		"http": func() interface{} { return new(Authenticator) },
 	}, "type", "")
 )
-
-type KCPConfig struct {
-	Mtu             *uint32         `json:"mtu"`
-	Tti             *uint32         `json:"tti"`
-	UpCap           *uint32         `json:"uplinkCapacity"`
-	DownCap         *uint32         `json:"downlinkCapacity"`
-	Congestion      *bool           `json:"congestion"`
-	ReadBufferSize  *uint32         `json:"readBufferSize"`
-	WriteBufferSize *uint32         `json:"writeBufferSize"`
-	HeaderConfig    json.RawMessage `json:"header"`
-	Seed            *string         `json:"seed"`
-}
-
-// Build implements Buildable.
-func (c *KCPConfig) Build() (proto.Message, error) {
-	config := new(kcp.Config)
-
-	if c.Mtu != nil {
-		mtu := *c.Mtu
-		if mtu < 576 || mtu > 1460 {
-			return nil, errors.New("invalid mKCP MTU size: ", mtu).AtError()
-		}
-		config.Mtu = &kcp.MTU{Value: mtu}
-	}
-	if c.Tti != nil {
-		tti := *c.Tti
-		if tti < 10 || tti > 100 {
-			return nil, errors.New("invalid mKCP TTI: ", tti).AtError()
-		}
-		config.Tti = &kcp.TTI{Value: tti}
-	}
-	if c.UpCap != nil {
-		config.UplinkCapacity = &kcp.UplinkCapacity{Value: *c.UpCap}
-	}
-	if c.DownCap != nil {
-		config.DownlinkCapacity = &kcp.DownlinkCapacity{Value: *c.DownCap}
-	}
-	if c.Congestion != nil {
-		config.Congestion = *c.Congestion
-	}
-	if c.ReadBufferSize != nil {
-		size := *c.ReadBufferSize
-		if size > 0 {
-			config.ReadBuffer = &kcp.ReadBuffer{Size: size * 1024 * 1024}
-		} else {
-			config.ReadBuffer = &kcp.ReadBuffer{Size: 512 * 1024}
-		}
-	}
-	if c.WriteBufferSize != nil {
-		size := *c.WriteBufferSize
-		if size > 0 {
-			config.WriteBuffer = &kcp.WriteBuffer{Size: size * 1024 * 1024}
-		} else {
-			config.WriteBuffer = &kcp.WriteBuffer{Size: 512 * 1024}
-		}
-	}
-	if len(c.HeaderConfig) > 0 {
-		headerConfig, _, err := kcpHeaderLoader.Load(c.HeaderConfig)
-		if err != nil {
-			return nil, errors.New("invalid mKCP header config.").Base(err).AtError()
-		}
-		ts, err := headerConfig.(Buildable).Build()
-		if err != nil {
-			return nil, errors.New("invalid mKCP header config").Base(err).AtError()
-		}
-		config.HeaderConfig = serial.ToTypedMessage(ts)
-	}
-
-	if c.Seed != nil {
-		config.Seed = &kcp.EncryptionSeed{Seed: *c.Seed}
-	}
-
-	return config, nil
-}
 
 type TCPConfig struct {
 	HeaderConfig        json.RawMessage `json:"header"`
@@ -217,118 +133,6 @@ func (c *HttpUpgradeConfig) Build() (proto.Message, error) {
 		AcceptProxyProtocol: c.AcceptProxyProtocol,
 		Ed:                  ed,
 	}
-	return config, nil
-}
-
-type SplitHTTPConfig struct {
-	Host                 string            `json:"host"`
-	Path                 string            `json:"path"`
-	Mode                 string            `json:"mode"`
-	Headers              map[string]string `json:"headers"`
-	XPaddingBytes        Int32Range        `json:"xPaddingBytes"`
-	NoGRPCHeader         bool              `json:"noGRPCHeader"`
-	NoSSEHeader          bool              `json:"noSSEHeader"`
-	ScMaxEachPostBytes   Int32Range        `json:"scMaxEachPostBytes"`
-	ScMinPostsIntervalMs Int32Range        `json:"scMinPostsIntervalMs"`
-	ScMaxBufferedPosts   int64             `json:"scMaxBufferedPosts"`
-	ScStreamUpServerSecs Int32Range        `json:"scStreamUpServerSecs"`
-	Xmux                 XmuxConfig        `json:"xmux"`
-	DownloadSettings     *StreamConfig     `json:"downloadSettings"`
-	Extra                json.RawMessage   `json:"extra"`
-}
-
-type XmuxConfig struct {
-	MaxConcurrency   Int32Range `json:"maxConcurrency"`
-	MaxConnections   Int32Range `json:"maxConnections"`
-	CMaxReuseTimes   Int32Range `json:"cMaxReuseTimes"`
-	HMaxRequestTimes Int32Range `json:"hMaxRequestTimes"`
-	HMaxReusableSecs Int32Range `json:"hMaxReusableSecs"`
-	HKeepAlivePeriod int64      `json:"hKeepAlivePeriod"`
-}
-
-func newRangeConfig(input Int32Range) *splithttp.RangeConfig {
-	return &splithttp.RangeConfig{
-		From: input.From,
-		To:   input.To,
-	}
-}
-
-// Build implements Buildable.
-func (c *SplitHTTPConfig) Build() (proto.Message, error) {
-	if c.Extra != nil {
-		var extra SplitHTTPConfig
-		if err := json.Unmarshal(c.Extra, &extra); err != nil {
-			return nil, errors.New(`Failed to unmarshal "extra".`).Base(err)
-		}
-		extra.Host = c.Host
-		extra.Path = c.Path
-		extra.Mode = c.Mode
-		c = &extra
-	}
-
-	switch c.Mode {
-	case "":
-		c.Mode = "auto"
-	case "auto", "packet-up", "stream-up", "stream-one":
-	default:
-		return nil, errors.New("unsupported mode: " + c.Mode)
-	}
-
-	// Priority (client): host > serverName > address
-	for k := range c.Headers {
-		if strings.ToLower(k) == "host" {
-			return nil, errors.New(`"headers" can't contain "host"`)
-		}
-	}
-
-	if c.XPaddingBytes != (Int32Range{}) && (c.XPaddingBytes.From <= 0 || c.XPaddingBytes.To <= 0) {
-		return nil, errors.New("xPaddingBytes cannot be disabled")
-	}
-
-	if c.Xmux.MaxConnections.To > 0 && c.Xmux.MaxConcurrency.To > 0 {
-		return nil, errors.New("maxConnections cannot be specified together with maxConcurrency")
-	}
-	if c.Xmux == (XmuxConfig{}) {
-		c.Xmux.MaxConcurrency.From = 16
-		c.Xmux.MaxConcurrency.To = 32
-		c.Xmux.HMaxRequestTimes.From = 600
-		c.Xmux.HMaxRequestTimes.To = 900
-		c.Xmux.HMaxReusableSecs.From = 1800
-		c.Xmux.HMaxReusableSecs.To = 3000
-	}
-
-	config := &splithttp.Config{
-		Host:                 c.Host,
-		Path:                 c.Path,
-		Mode:                 c.Mode,
-		Headers:              c.Headers,
-		XPaddingBytes:        newRangeConfig(c.XPaddingBytes),
-		NoGRPCHeader:         c.NoGRPCHeader,
-		NoSSEHeader:          c.NoSSEHeader,
-		ScMaxEachPostBytes:   newRangeConfig(c.ScMaxEachPostBytes),
-		ScMinPostsIntervalMs: newRangeConfig(c.ScMinPostsIntervalMs),
-		ScMaxBufferedPosts:   c.ScMaxBufferedPosts,
-		ScStreamUpServerSecs: newRangeConfig(c.ScStreamUpServerSecs),
-		Xmux: &splithttp.XmuxConfig{
-			MaxConcurrency:   newRangeConfig(c.Xmux.MaxConcurrency),
-			MaxConnections:   newRangeConfig(c.Xmux.MaxConnections),
-			CMaxReuseTimes:   newRangeConfig(c.Xmux.CMaxReuseTimes),
-			HMaxRequestTimes: newRangeConfig(c.Xmux.HMaxRequestTimes),
-			HMaxReusableSecs: newRangeConfig(c.Xmux.HMaxReusableSecs),
-			HKeepAlivePeriod: c.Xmux.HKeepAlivePeriod,
-		},
-	}
-
-	if c.DownloadSettings != nil {
-		if c.Mode == "stream-one" {
-			return nil, errors.New(`Can not use "downloadSettings" in "stream-one" mode.`)
-		}
-		var err error
-		if config.DownloadSettings, err = c.DownloadSettings.Build(); err != nil {
-			return nil, errors.New(`Failed to build "downloadSettings".`).Base(err)
-		}
-	}
-
 	return config, nil
 }
 
@@ -664,10 +468,7 @@ func (p TransportProtocol) Build() (string, error) {
 	switch strings.ToLower(string(p)) {
 	case "raw", "tcp":
 		return "tcp", nil
-	case "xhttp", "splithttp":
-		return "splithttp", nil
-	case "kcp", "mkcp":
-		return "mkcp", nil
+
 	case "grpc":
 		errors.PrintDeprecatedFeatureWarning("gRPC transport (with unnecessary costs, etc.)", "XHTTP stream-up H2")
 		return "grpc", nil
@@ -802,17 +603,15 @@ func (c *SocketConfig) Build() (*internet.SocketConfig, error) {
 }
 
 type StreamConfig struct {
-	Address             *Address           `json:"address"`
-	Port                uint16             `json:"port"`
-	Network             *TransportProtocol `json:"network"`
-	Security            string             `json:"security"`
-	TLSSettings         *TLSConfig         `json:"tlsSettings"`
-	REALITYSettings     *REALITYConfig     `json:"realitySettings"`
-	RAWSettings         *TCPConfig         `json:"rawSettings"`
-	TCPSettings         *TCPConfig         `json:"tcpSettings"`
-	XHTTPSettings       *SplitHTTPConfig   `json:"xhttpSettings"`
-	SplitHTTPSettings   *SplitHTTPConfig   `json:"splithttpSettings"`
-	KCPSettings         *KCPConfig         `json:"kcpSettings"`
+	Address         *Address           `json:"address"`
+	Port            uint16             `json:"port"`
+	Network         *TransportProtocol `json:"network"`
+	Security        string             `json:"security"`
+	TLSSettings     *TLSConfig         `json:"tlsSettings"`
+	REALITYSettings *REALITYConfig     `json:"realitySettings"`
+	RAWSettings     *TCPConfig         `json:"rawSettings"`
+	TCPSettings     *TCPConfig         `json:"tcpSettings"`
+
 	GRPCSettings        *GRPCConfig        `json:"grpcSettings"`
 	WSSettings          *WebSocketConfig   `json:"wsSettings"`
 	HTTPUPGRADESettings *HttpUpgradeConfig `json:"httpupgradeSettings"`
@@ -850,8 +649,8 @@ func (c *StreamConfig) Build() (*internet.StreamConfig, error) {
 		config.SecuritySettings = append(config.SecuritySettings, tm)
 		config.SecurityType = tm.Type
 	case "reality":
-		if config.ProtocolName != "tcp" && config.ProtocolName != "splithttp" && config.ProtocolName != "grpc" {
-			return nil, errors.New("REALITY only supports RAW, XHTTP and gRPC for now.")
+		if config.ProtocolName != "tcp" && config.ProtocolName != "grpc" {
+			return nil, errors.New("REALITY only supports RAW and gRPC for now.")
 		}
 		if c.REALITYSettings == nil {
 			return nil, errors.New(`REALITY: Empty "realitySettings".`)
@@ -881,29 +680,7 @@ func (c *StreamConfig) Build() (*internet.StreamConfig, error) {
 			Settings:     serial.ToTypedMessage(ts),
 		})
 	}
-	if c.XHTTPSettings != nil {
-		c.SplitHTTPSettings = c.XHTTPSettings
-	}
-	if c.SplitHTTPSettings != nil {
-		hs, err := c.SplitHTTPSettings.Build()
-		if err != nil {
-			return nil, errors.New("Failed to build XHTTP config.").Base(err)
-		}
-		config.TransportSettings = append(config.TransportSettings, &internet.TransportConfig{
-			ProtocolName: "splithttp",
-			Settings:     serial.ToTypedMessage(hs),
-		})
-	}
-	if c.KCPSettings != nil {
-		ts, err := c.KCPSettings.Build()
-		if err != nil {
-			return nil, errors.New("Failed to build mKCP config.").Base(err)
-		}
-		config.TransportSettings = append(config.TransportSettings, &internet.TransportConfig{
-			ProtocolName: "mkcp",
-			Settings:     serial.ToTypedMessage(ts),
-		})
-	}
+
 	if c.GRPCSettings != nil {
 		gs, err := c.GRPCSettings.Build()
 		if err != nil {

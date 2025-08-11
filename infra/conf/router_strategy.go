@@ -3,7 +3,6 @@ package conf
 import (
 	"google.golang.org/protobuf/proto"
 
-	"github.com/xtls/xray-core/app/observatory/burst"
 	"github.com/xtls/xray-core/app/router"
 	"github.com/xtls/xray-core/infra/conf/cfgcommon/duration"
 )
@@ -44,24 +43,7 @@ type strategyLeastLoadConfig struct {
 	Tolerance float64 `json:"tolerance,omitempty"`
 }
 
-// healthCheckSettings holds settings for health Checker
-type healthCheckSettings struct {
-	Destination   string            `json:"destination"`
-	Connectivity  string            `json:"connectivity"`
-	Interval      duration.Duration `json:"interval"`
-	SamplingCount int               `json:"sampling"`
-	Timeout       duration.Duration `json:"timeout"`
-}
-
-func (h healthCheckSettings) Build() (proto.Message, error) {
-	return &burst.HealthPingConfig{
-		Destination:   h.Destination,
-		Connectivity:  h.Connectivity,
-		Interval:      int64(h.Interval),
-		Timeout:       int64(h.Timeout),
-		SamplingCount: int32(h.SamplingCount),
-	}, nil
-}
+// healthCheckSettings removed - observatory functionality deleted
 
 // Build implements Buildable.
 func (v *strategyLeastLoadConfig) Build() (proto.Message, error) {

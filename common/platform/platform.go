@@ -19,10 +19,10 @@ const (
 	UseVmessPadding  = "xray.vmess.padding"
 	UseCone          = "xray.cone.disabled"
 
-	BufferSize           = "xray.ray.buffer.size"
-	BrowserDialerAddress = "xray.browser.dialer"
-	XUDPLog              = "xray.xudp.show"
-	XUDPBaseKey          = "xray.xudp.basekey"
+	BufferSize = "xray.ray.buffer.size"
+
+	XUDPLog     = "xray.xudp.show"
+	XUDPBaseKey = "xray.xudp.basekey"
 )
 
 type EnvFlag struct {

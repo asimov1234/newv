@@ -133,7 +133,7 @@ func (br *BalancingRule) Build(ohm outbound.Manager, dispatcher routing.Dispatch
 		if !ok {
 			return nil, errors.New("not a StrategyLeastLoadConfig").AtError()
 		}
-		leastLoadStrategy := NewLeastLoadStrategy(s)
+		leastLoadStrategy := &LeastLoadStrategy{settings: s}
 		return &Balancer{
 			selectors:   br.OutboundSelector,
 			ohm:         ohm,

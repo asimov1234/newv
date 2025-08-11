@@ -13,7 +13,7 @@ import (
 	"github.com/xtls/xray-core/common/errors"
 	"github.com/xtls/xray-core/common/net"
 	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/browser_dialer"
+
 	"github.com/xtls/xray-core/transport/internet/stat"
 	"github.com/xtls/xray-core/transport/internet/tls"
 )
@@ -93,15 +93,6 @@ func dialWebSocket(ctx context.Context, dest net.Destination, streamSettings *in
 		host = dest.Address.String()
 	}
 	uri := protocol + "://" + host + wsSettings.GetNormalizedPath()
-
-	if browser_dialer.HasBrowserDialer() {
-		conn, err := browser_dialer.DialWS(uri, ed)
-		if err != nil {
-			return nil, err
-		}
-
-		return NewConnection(conn, conn.RemoteAddr(), nil, wsSettings.HeartbeatPeriod), nil
-	}
 
 	header := wsSettings.GetRequestHeader()
 	// See dialer.DialContext()
