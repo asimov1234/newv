@@ -22,10 +22,10 @@
 ### 2. 修改的文件
 
 #### `main/distro/all/all.go`
-- 移除了 `_ "github.com/xtls/xray-core/transport/internet/kcp"` 导入
+- 移除了 `_ "github.com/asimov/newv/transport/internet/kcp"` 导入
 
 #### `infra/conf/transport_internet.go`
-- 移除了 `"github.com/xtls/xray-core/transport/internet/kcp"` 导入
+- 移除了 `"github.com/asimov/newv/transport/internet/kcp"` 导入
 - 删除了 `kcpHeaderLoader` 变量和配置
 - 删除了 `KCPConfig` 结构体
 - 删除了 `KCPConfig.Build()` 方法

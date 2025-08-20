@@ -5,9 +5,9 @@ import (
 	"io"
 	"testing"
 
-	. "github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/testing/servers/tcp"
+	. "github.com/asimov/newv/common/buf"
+	"github.com/asimov/newv/common/net"
+	"github.com/asimov/newv/testing/servers/tcp"
 )
 
 func TestWriterCreation(t *testing.T) {

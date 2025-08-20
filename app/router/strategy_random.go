@@ -3,7 +3,7 @@ package router
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common/dice"
+	"github.com/asimov/newv/common/dice"
 )
 
 // RandomStrategy represents a random balancing strategy

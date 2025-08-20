@@ -5,11 +5,11 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/cmdarg"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/main/confloader"
+	"github.com/asimov/newv/common"
+	"github.com/asimov/newv/common/buf"
+	"github.com/asimov/newv/common/cmdarg"
+	"github.com/asimov/newv/common/errors"
+	"github.com/asimov/newv/main/confloader"
 	"google.golang.org/protobuf/proto"
 )
 

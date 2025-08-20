@@ -3,11 +3,11 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	. "github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/proxy/socks"
+	"github.com/asimov/newv/common/net"
+	"github.com/asimov/newv/common/protocol"
+	"github.com/asimov/newv/common/serial"
+	. "github.com/asimov/newv/infra/conf"
+	"github.com/asimov/newv/proxy/socks"
 )
 
 func TestSocksInboundConfig(t *testing.T) {

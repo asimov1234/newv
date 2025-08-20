@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/task"
+	"github.com/asimov/newv/common"
+	"github.com/asimov/newv/common/errors"
+	"github.com/asimov/newv/common/task"
 )
 
 func TestGenerate(t *testing.T) {

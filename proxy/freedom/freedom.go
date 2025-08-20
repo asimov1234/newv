@@ -8,25 +8,25 @@ import (
 	"time"
 
 	"github.com/pires/go-proxyproto"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/retry"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/proxy"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/asimov/newv/common"
+	"github.com/asimov/newv/common/buf"
+	"github.com/asimov/newv/common/dice"
+	"github.com/asimov/newv/common/errors"
+	"github.com/asimov/newv/common/net"
+	"github.com/asimov/newv/common/platform"
+	"github.com/asimov/newv/common/retry"
+	"github.com/asimov/newv/common/session"
+	"github.com/asimov/newv/common/signal"
+	"github.com/asimov/newv/common/task"
+	"github.com/asimov/newv/core"
+	"github.com/asimov/newv/features/dns"
+	"github.com/asimov/newv/features/policy"
+	"github.com/asimov/newv/features/stats"
+	"github.com/asimov/newv/proxy"
+	"github.com/asimov/newv/transport"
+	"github.com/asimov/newv/transport/internet"
+	"github.com/asimov/newv/transport/internet/stat"
+	"github.com/asimov/newv/transport/internet/tls"
 )
 
 var useSplice bool
@@ -509,7 +509,7 @@ func (f *FragmentWriter) Write(b []byte) (int, error) {
 	}
 }
 
-// stolen from github.com/xtls/xray-core/transport/internet/reality
+// stolen from github.com/asimov/newv/transport/internet/reality
 func randBetween(left int64, right int64) int64 {
 	if left == right {
 		return left

@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol/tls/cert"
-	"github.com/xtls/xray-core/testing/servers/tcp"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
-	. "github.com/xtls/xray-core/transport/internet/websocket"
+	"github.com/asimov/newv/common"
+	"github.com/asimov/newv/common/net"
+	"github.com/asimov/newv/common/protocol/tls/cert"
+	"github.com/asimov/newv/testing/servers/tcp"
+	"github.com/asimov/newv/transport/internet"
+	"github.com/asimov/newv/transport/internet/stat"
+	"github.com/asimov/newv/transport/internet/tls"
+	. "github.com/asimov/newv/transport/internet/websocket"
 )
 
 func Test_listenWSAndDial(t *testing.T) {

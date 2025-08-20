@@ -3,7 +3,7 @@ package protocol
 import (
 	"time"
 
-	"github.com/xtls/xray-core/common/dice"
+	"github.com/asimov/newv/common/dice"
 )
 
 type Timestamp int64

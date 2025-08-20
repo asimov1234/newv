@@ -3,8 +3,8 @@ package conf
 import (
 	"google.golang.org/protobuf/proto"
 
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/infra/conf/cfgcommon/duration"
+	"github.com/asimov/newv/app/router"
+	"github.com/asimov/newv/infra/conf/cfgcommon/duration"
 )
 
 const (

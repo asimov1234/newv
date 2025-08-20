@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/asimov/newv/common"
+	"github.com/asimov/newv/common/protocol"
 )
 
 // MemoryAccount is an account type converted from Account.

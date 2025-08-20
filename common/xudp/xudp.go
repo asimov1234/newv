@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
+	"github.com/asimov/newv/common/buf"
+	"github.com/asimov/newv/common/errors"
+	"github.com/asimov/newv/common/net"
+	"github.com/asimov/newv/common/platform"
+	"github.com/asimov/newv/common/protocol"
+	"github.com/asimov/newv/common/session"
 	"lukechampine.com/blake3"
 )
 

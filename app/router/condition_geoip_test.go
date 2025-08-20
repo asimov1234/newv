@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/platform/filesystem"
+	"github.com/asimov/newv/app/router"
+	"github.com/asimov/newv/common"
+	"github.com/asimov/newv/common/net"
+	"github.com/asimov/newv/common/platform"
+	"github.com/asimov/newv/common/platform/filesystem"
 	"google.golang.org/protobuf/proto"
 )
 

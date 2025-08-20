@@ -5,11 +5,11 @@ import (
 	"net"
 	"sync"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/signal/done"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/outbound"
+	"github.com/asimov/newv/common"
+	"github.com/asimov/newv/common/errors"
+	"github.com/asimov/newv/common/signal/done"
+	core "github.com/asimov/newv/core"
+	"github.com/asimov/newv/features/outbound"
 	"google.golang.org/grpc"
 )
 

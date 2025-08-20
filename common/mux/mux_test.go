@@ -5,12 +5,12 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	. "github.com/xtls/xray-core/common/mux"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/asimov/newv/common"
+	"github.com/asimov/newv/common/buf"
+	. "github.com/asimov/newv/common/mux"
+	"github.com/asimov/newv/common/net"
+	"github.com/asimov/newv/common/protocol"
+	"github.com/asimov/newv/transport/pipe"
 )
 
 func readAll(reader buf.Reader) (buf.MultiBuffer, error) {

@@ -11,18 +11,18 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform/filesystem"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/httpupgrade"
+	"github.com/asimov/newv/common/errors"
+	"github.com/asimov/newv/common/net"
+	"github.com/asimov/newv/common/platform/filesystem"
+	"github.com/asimov/newv/common/serial"
+	"github.com/asimov/newv/transport/internet"
+	"github.com/asimov/newv/transport/internet/httpupgrade"
 
-	"github.com/xtls/xray-core/transport/internet/reality"
+	"github.com/asimov/newv/transport/internet/reality"
 
-	"github.com/xtls/xray-core/transport/internet/tcp"
-	"github.com/xtls/xray-core/transport/internet/tls"
-	"github.com/xtls/xray-core/transport/internet/websocket"
+	"github.com/asimov/newv/transport/internet/tcp"
+	"github.com/asimov/newv/transport/internet/tls"
+	"github.com/asimov/newv/transport/internet/websocket"
 	"google.golang.org/protobuf/proto"
 )
 

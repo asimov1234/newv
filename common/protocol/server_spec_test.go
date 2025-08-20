@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	. "github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/proxy/vmess"
+	"github.com/asimov/newv/common"
+	"github.com/asimov/newv/common/net"
+	. "github.com/asimov/newv/common/protocol"
+	"github.com/asimov/newv/common/uuid"
+	"github.com/asimov/newv/proxy/vmess"
 )
 
 func TestAlwaysValidStrategy(t *testing.T) {

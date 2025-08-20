@@ -4,14 +4,14 @@ import (
 	"context"
 	sync "sync"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/routing"
-	routing_dns "github.com/xtls/xray-core/features/routing/dns"
+	"github.com/asimov/newv/common"
+	"github.com/asimov/newv/common/errors"
+	"github.com/asimov/newv/common/serial"
+	"github.com/asimov/newv/core"
+	"github.com/asimov/newv/features/dns"
+	"github.com/asimov/newv/features/outbound"
+	"github.com/asimov/newv/features/routing"
+	routing_dns "github.com/asimov/newv/features/routing/dns"
 )
 
 // Router is an implementation of routing.Router.

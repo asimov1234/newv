@@ -4,9 +4,9 @@ import (
 	"context"
 	sync "sync"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/features/extension"
-	"github.com/xtls/xray-core/features/outbound"
+	"github.com/asimov/newv/common/errors"
+	"github.com/asimov/newv/features/extension"
+	"github.com/asimov/newv/features/outbound"
 )
 
 type BalancingStrategy interface {

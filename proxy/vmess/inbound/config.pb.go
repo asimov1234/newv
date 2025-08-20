@@ -7,7 +7,7 @@
 package inbound
 
 import (
-	protocol "github.com/xtls/xray-core/common/protocol"
+	protocol "github.com/asimov/newv/common/protocol"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

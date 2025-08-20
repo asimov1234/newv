@@ -34,8 +34,8 @@
 ### 2. 修改的文件
 
 #### `main/distro/all/all.go`
-- 移除了 `_ "github.com/xtls/xray-core/app/observatory/command"` 导入
-- 移除了 `_ "github.com/xtls/xray-core/app/observatory"` 导入
+- 移除了 `_ "github.com/asimov/newv/app/observatory/command"` 导入
+- 移除了 `_ "github.com/asimov/newv/app/observatory"` 导入
 
 #### `infra/conf/xray.go`
 - 在 `Config` 结构体中移除了：
@@ -49,7 +49,7 @@
 - 删除了 `"observatoryservice"` 案例处理
 
 #### `infra/conf/router_strategy.go`
-- 移除了 `"github.com/xtls/xray-core/app/observatory/burst"` 导入
+- 移除了 `"github.com/asimov/newv/app/observatory/burst"` 导入
 - 删除了 `healthCheckSettings` 结构体和其 `Build()` 方法
 
 #### Router策略文件修改
