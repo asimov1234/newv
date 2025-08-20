@@ -11,14 +11,14 @@ import (
 	"github.com/sagernet/sing/common/bufio"
 	N "github.com/sagernet/sing/common/network"
 	"github.com/sagernet/sing/common/uot"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/session"
-	"github.com/asimov/newv/common/singbridge"
-	"github.com/asimov/newv/transport"
-	"github.com/asimov/newv/transport/internet"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/session"
+	"github.com/asimov1234/newv/common/singbridge"
+	"github.com/asimov1234/newv/transport"
+	"github.com/asimov1234/newv/transport/internet"
 )
 
 func init() {

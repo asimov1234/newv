@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	. "github.com/asimov/newv/common"
+	. "github.com/asimov1234/newv/common"
 )
 
 func TestMust(t *testing.T) {

@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/asimov/newv/main/commands/base"
+	"github.com/asimov1234/newv/main/commands/base"
 )
 
 // CmdAPI calls an API in an Xray process

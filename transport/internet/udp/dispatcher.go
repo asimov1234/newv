@@ -7,15 +7,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/protocol/udp"
-	"github.com/asimov/newv/common/signal"
-	"github.com/asimov/newv/common/signal/done"
-	"github.com/asimov/newv/features/routing"
-	"github.com/asimov/newv/transport"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/protocol/udp"
+	"github.com/asimov1234/newv/common/signal"
+	"github.com/asimov1234/newv/common/signal/done"
+	"github.com/asimov1234/newv/features/routing"
+	"github.com/asimov1234/newv/transport"
 )
 
 type ResponseCallback func(ctx context.Context, packet *udp.Packet)

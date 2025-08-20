@@ -3,10 +3,10 @@ package udp
 import (
 	"context"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/transport/internet"
-	"github.com/asimov/newv/transport/internet/stat"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/transport/internet"
+	"github.com/asimov1234/newv/transport/internet/stat"
 )
 
 func init() {

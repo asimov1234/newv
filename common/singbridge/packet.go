@@ -6,9 +6,9 @@ import (
 	B "github.com/sagernet/sing/common/buf"
 	"github.com/sagernet/sing/common/bufio"
 	M "github.com/sagernet/sing/common/metadata"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/transport"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/transport"
 )
 
 func CopyPacketConn(ctx context.Context, inboundConn net.Conn, link *transport.Link, destination net.Destination, serverConn net.PacketConn) error {

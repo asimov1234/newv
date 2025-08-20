@@ -4,10 +4,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/signal/done"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/signal/done"
 )
 
 type ConnectionOption func(*connection)

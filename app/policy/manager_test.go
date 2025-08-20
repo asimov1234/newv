@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/asimov/newv/app/policy"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/features/policy"
+	. "github.com/asimov1234/newv/app/policy"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/features/policy"
 )
 
 func TestPolicy(t *testing.T) {

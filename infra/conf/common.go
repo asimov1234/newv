@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/platform"
-	"github.com/asimov/newv/common/protocol"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/platform"
+	"github.com/asimov1234/newv/common/protocol"
 )
 
 type StringList []string

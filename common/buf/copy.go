@@ -4,9 +4,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/signal"
-	"github.com/asimov/newv/features/stats"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/signal"
+	"github.com/asimov1234/newv/features/stats"
 )
 
 type dataHandler func(MultiBuffer)

@@ -4,8 +4,8 @@ import (
 	"flag"
 	"os"
 
-	"github.com/asimov/newv/main/commands/base"
-	_ "github.com/asimov/newv/main/distro/all"
+	"github.com/asimov1234/newv/main/commands/base"
+	_ "github.com/asimov1234/newv/main/distro/all"
 )
 
 func main() {

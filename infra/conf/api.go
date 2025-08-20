@@ -3,14 +3,14 @@ package conf
 import (
 	"strings"
 
-	"github.com/asimov/newv/app/commander"
-	loggerservice "github.com/asimov/newv/app/log/command"
+	"github.com/asimov1234/newv/app/commander"
+	loggerservice "github.com/asimov1234/newv/app/log/command"
 
-	handlerservice "github.com/asimov/newv/app/proxyman/command"
-	routerservice "github.com/asimov/newv/app/router/command"
-	statsservice "github.com/asimov/newv/app/stats/command"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/serial"
+	handlerservice "github.com/asimov1234/newv/app/proxyman/command"
+	routerservice "github.com/asimov1234/newv/app/router/command"
+	statsservice "github.com/asimov1234/newv/app/stats/command"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/serial"
 )
 
 type APIConfig struct {

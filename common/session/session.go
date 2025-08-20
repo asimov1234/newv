@@ -1,16 +1,16 @@
 // Package session provides functions for sessions of incoming requests.
-package session // import "github.com/asimov/newv/common/session"
+package session // import "github.com/asimov1234/newv/common/session"
 
 import (
 	"context"
 	"math/rand"
 	"sync"
 
-	c "github.com/asimov/newv/common/ctx"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/protocol"
-	"github.com/asimov/newv/common/signal"
+	c "github.com/asimov1234/newv/common/ctx"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/protocol"
+	"github.com/asimov1234/newv/common/signal"
 )
 
 // NewID generates a new ID. The generated ID is high likely to be unique, but not cryptographically secure.

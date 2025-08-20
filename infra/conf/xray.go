@@ -9,14 +9,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/asimov/newv/app/dispatcher"
-	"github.com/asimov/newv/app/proxyman"
-	"github.com/asimov/newv/app/stats"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/serial"
-	core "github.com/asimov/newv/core"
-	"github.com/asimov/newv/transport/internet"
+	"github.com/asimov1234/newv/app/dispatcher"
+	"github.com/asimov1234/newv/app/proxyman"
+	"github.com/asimov1234/newv/app/stats"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/serial"
+	core "github.com/asimov1234/newv/core"
+	"github.com/asimov1234/newv/transport/internet"
 )
 
 var (

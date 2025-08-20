@@ -1,17 +1,17 @@
 // Package errors is a drop-in replacement for Golang lib 'errors'.
-package errors // import "github.com/asimov/newv/common/errors"
+package errors // import "github.com/asimov1234/newv/common/errors"
 
 import (
 	"context"
 	"runtime"
 	"strings"
 
-	c "github.com/asimov/newv/common/ctx"
-	"github.com/asimov/newv/common/log"
-	"github.com/asimov/newv/common/serial"
+	c "github.com/asimov1234/newv/common/ctx"
+	"github.com/asimov1234/newv/common/log"
+	"github.com/asimov1234/newv/common/serial"
 )
 
-const trim = len("github.com/asimov/newv/")
+const trim = len("github.com/asimov1234/newv/")
 
 type hasInnerError interface {
 	// Unwrap returns the underlying error of this one.

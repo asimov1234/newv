@@ -8,14 +8,14 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/protocol"
-	"github.com/asimov/newv/common/serial"
-	"github.com/asimov/newv/common/uuid"
-	"github.com/asimov/newv/proxy/vless"
-	"github.com/asimov/newv/proxy/vless/inbound"
-	"github.com/asimov/newv/proxy/vless/outbound"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/protocol"
+	"github.com/asimov1234/newv/common/serial"
+	"github.com/asimov1234/newv/common/uuid"
+	"github.com/asimov1234/newv/proxy/vless"
+	"github.com/asimov1234/newv/proxy/vless/inbound"
+	"github.com/asimov1234/newv/proxy/vless/outbound"
 	"google.golang.org/protobuf/proto"
 )
 

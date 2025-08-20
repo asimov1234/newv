@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/protocol/tls/cert"
-	"github.com/asimov/newv/testing/servers/tcp"
-	"github.com/asimov/newv/transport/internet"
-	"github.com/asimov/newv/transport/internet/stat"
-	"github.com/asimov/newv/transport/internet/tls"
-	. "github.com/asimov/newv/transport/internet/websocket"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/protocol/tls/cert"
+	"github.com/asimov1234/newv/testing/servers/tcp"
+	"github.com/asimov1234/newv/transport/internet"
+	"github.com/asimov1234/newv/transport/internet/stat"
+	"github.com/asimov1234/newv/transport/internet/tls"
+	. "github.com/asimov1234/newv/transport/internet/websocket"
 )
 
 func Test_listenWSAndDial(t *testing.T) {

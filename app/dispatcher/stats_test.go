@@ -3,9 +3,9 @@ package dispatcher_test
 import (
 	"testing"
 
-	. "github.com/asimov/newv/app/dispatcher"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
+	. "github.com/asimov1234/newv/app/dispatcher"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
 )
 
 type TestCounter int64

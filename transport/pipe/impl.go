@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/signal"
-	"github.com/asimov/newv/common/signal/done"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/signal"
+	"github.com/asimov1234/newv/common/signal/done"
 )
 
 type state byte

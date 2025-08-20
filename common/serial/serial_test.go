@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/serial"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/serial"
 )
 
 func TestUint16Serial(t *testing.T) {

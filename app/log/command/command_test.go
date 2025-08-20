@@ -4,15 +4,15 @@ import (
 	"context"
 	"testing"
 
-	"github.com/asimov/newv/app/dispatcher"
-	"github.com/asimov/newv/app/log"
-	. "github.com/asimov/newv/app/log/command"
-	"github.com/asimov/newv/app/proxyman"
-	_ "github.com/asimov/newv/app/proxyman/inbound"
-	_ "github.com/asimov/newv/app/proxyman/outbound"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/serial"
-	"github.com/asimov/newv/core"
+	"github.com/asimov1234/newv/app/dispatcher"
+	"github.com/asimov1234/newv/app/log"
+	. "github.com/asimov1234/newv/app/log/command"
+	"github.com/asimov1234/newv/app/proxyman"
+	_ "github.com/asimov1234/newv/app/proxyman/inbound"
+	_ "github.com/asimov1234/newv/app/proxyman/outbound"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/serial"
+	"github.com/asimov1234/newv/core"
 )
 
 func TestLoggerRestart(t *testing.T) {

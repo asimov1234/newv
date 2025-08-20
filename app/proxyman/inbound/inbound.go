@@ -4,14 +4,14 @@ import (
 	"context"
 	"sync"
 
-	"github.com/asimov/newv/app/proxyman"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/errors"
+	"github.com/asimov1234/newv/app/proxyman"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/errors"
 
-	"github.com/asimov/newv/common/serial"
-	"github.com/asimov/newv/common/session"
-	"github.com/asimov/newv/core"
-	"github.com/asimov/newv/features/inbound"
+	"github.com/asimov1234/newv/common/serial"
+	"github.com/asimov1234/newv/common/session"
+	"github.com/asimov1234/newv/core"
+	"github.com/asimov1234/newv/features/inbound"
 )
 
 // Manager manages all inbound handlers.

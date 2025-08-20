@@ -5,14 +5,14 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	. "github.com/asimov/newv/app/router"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/session"
-	"github.com/asimov/newv/features/dns"
-	"github.com/asimov/newv/features/outbound"
-	routing_session "github.com/asimov/newv/features/routing/session"
-	"github.com/asimov/newv/testing/mocks"
+	. "github.com/asimov1234/newv/app/router"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/session"
+	"github.com/asimov1234/newv/features/dns"
+	"github.com/asimov1234/newv/features/outbound"
+	routing_session "github.com/asimov1234/newv/features/routing/session"
+	"github.com/asimov1234/newv/testing/mocks"
 )
 
 type mockOutboundManager struct {

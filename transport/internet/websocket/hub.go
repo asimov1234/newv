@@ -12,12 +12,12 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	http_proto "github.com/asimov/newv/common/protocol/http"
-	"github.com/asimov/newv/transport/internet"
-	v2tls "github.com/asimov/newv/transport/internet/tls"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	http_proto "github.com/asimov1234/newv/common/protocol/http"
+	"github.com/asimov1234/newv/transport/internet"
+	v2tls "github.com/asimov1234/newv/transport/internet/tls"
 )
 
 type requestHandler struct {

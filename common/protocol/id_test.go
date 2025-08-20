@@ -3,8 +3,8 @@ package protocol_test
 import (
 	"testing"
 
-	. "github.com/asimov/newv/common/protocol"
-	"github.com/asimov/newv/common/uuid"
+	. "github.com/asimov1234/newv/common/protocol"
+	"github.com/asimov1234/newv/common/uuid"
 )
 
 func TestIdEquals(t *testing.T) {

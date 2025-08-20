@@ -1,9 +1,9 @@
 package routing
 
 import (
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/serial"
-	"github.com/asimov/newv/features"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/serial"
+	"github.com/asimov1234/newv/features"
 )
 
 // Router is a feature to choose an outbound tag for the given request.

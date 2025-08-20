@@ -1,8 +1,8 @@
 package internet
 
 import (
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/serial"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/serial"
 )
 
 type ConfigCreator func() interface{}

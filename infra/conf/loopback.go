@@ -1,7 +1,7 @@
 package conf
 
 import (
-	"github.com/asimov/newv/proxy/loopback"
+	"github.com/asimov1234/newv/proxy/loopback"
 	"google.golang.org/protobuf/proto"
 )
 

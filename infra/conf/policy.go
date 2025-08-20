@@ -1,7 +1,7 @@
 package conf
 
 import (
-	"github.com/asimov/newv/app/policy"
+	"github.com/asimov1234/newv/app/policy"
 )
 
 type Policy struct {

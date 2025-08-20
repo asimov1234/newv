@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/asimov/newv/common/protocol"
+	. "github.com/asimov1234/newv/common/protocol"
 )
 
 func TestGenerateRandomInt64InRange(t *testing.T) {

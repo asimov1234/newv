@@ -3,7 +3,7 @@ package serial_test
 import (
 	"testing"
 
-	. "github.com/asimov/newv/common/serial"
+	. "github.com/asimov1234/newv/common/serial"
 )
 
 func TestGetInstance(t *testing.T) {

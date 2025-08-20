@@ -3,8 +3,8 @@ package protocol
 import (
 	"crypto/md5"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/uuid"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/uuid"
 )
 
 const (

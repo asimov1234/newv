@@ -3,8 +3,8 @@ package drain
 import (
 	"io"
 
-	"github.com/asimov/newv/common/dice"
-	"github.com/asimov/newv/common/errors"
+	"github.com/asimov1234/newv/common/dice"
+	"github.com/asimov1234/newv/common/errors"
 )
 
 type BehaviorSeedLimitedDrainer struct {

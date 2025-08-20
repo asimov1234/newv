@@ -8,17 +8,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asimov/newv/app/policy"
-	"github.com/asimov/newv/app/proxyman"
-	. "github.com/asimov/newv/app/proxyman/outbound"
-	"github.com/asimov/newv/app/stats"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/serial"
-	"github.com/asimov/newv/common/session"
-	core "github.com/asimov/newv/core"
-	"github.com/asimov/newv/features/outbound"
-	"github.com/asimov/newv/proxy/freedom"
-	"github.com/asimov/newv/transport/internet/stat"
+	"github.com/asimov1234/newv/app/policy"
+	"github.com/asimov1234/newv/app/proxyman"
+	. "github.com/asimov1234/newv/app/proxyman/outbound"
+	"github.com/asimov1234/newv/app/stats"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/serial"
+	"github.com/asimov1234/newv/common/session"
+	core "github.com/asimov1234/newv/core"
+	"github.com/asimov1234/newv/features/outbound"
+	"github.com/asimov1234/newv/proxy/freedom"
+	"github.com/asimov1234/newv/transport/internet/stat"
 )
 
 func TestInterfaces(t *testing.T) {

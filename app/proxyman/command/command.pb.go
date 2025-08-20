@@ -7,9 +7,9 @@
 package command
 
 import (
-	protocol "github.com/asimov/newv/common/protocol"
-	serial "github.com/asimov/newv/common/serial"
-	core "github.com/asimov/newv/core"
+	protocol "github.com/asimov1234/newv/common/protocol"
+	serial "github.com/asimov1234/newv/common/serial"
+	core "github.com/asimov1234/newv/core"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

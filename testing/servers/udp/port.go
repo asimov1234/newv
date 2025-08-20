@@ -1,8 +1,8 @@
 package udp
 
 import (
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/net"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/net"
 )
 
 // PickPort returns an unused UDP port in the system. The port returned is highly likely to be unused, but not guaranteed.

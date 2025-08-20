@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/asimov/newv/common"
-	. "github.com/asimov/newv/common/buf"
+	"github.com/asimov1234/newv/common"
+	. "github.com/asimov1234/newv/common/buf"
 )
 
 func TestMultiBufferRead(t *testing.T) {

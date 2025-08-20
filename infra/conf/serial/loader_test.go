@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/asimov/newv/infra/conf/serial"
+	"github.com/asimov1234/newv/infra/conf/serial"
 )
 
 func TestLoaderError(t *testing.T) {

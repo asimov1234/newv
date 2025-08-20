@@ -14,12 +14,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/ocsp"
-	"github.com/asimov/newv/common/platform/filesystem"
-	"github.com/asimov/newv/common/protocol/tls/cert"
-	"github.com/asimov/newv/transport/internet"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/ocsp"
+	"github.com/asimov1234/newv/common/platform/filesystem"
+	"github.com/asimov1234/newv/common/protocol/tls/cert"
+	"github.com/asimov1234/newv/transport/internet"
 )
 
 var globalSessionCache = tls.NewLRUClientSessionCache(128)

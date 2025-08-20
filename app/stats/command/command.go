@@ -5,12 +5,12 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/asimov/newv/app/stats"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/strmatcher"
-	"github.com/asimov/newv/core"
-	feature_stats "github.com/asimov/newv/features/stats"
+	"github.com/asimov1234/newv/app/stats"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/strmatcher"
+	"github.com/asimov1234/newv/core"
+	feature_stats "github.com/asimov1234/newv/features/stats"
 	grpc "google.golang.org/grpc"
 )
 

@@ -6,7 +6,7 @@ package udp
 import (
 	"syscall"
 
-	"github.com/asimov/newv/common/net"
+	"github.com/asimov1234/newv/common/net"
 	"golang.org/x/sys/unix"
 )
 

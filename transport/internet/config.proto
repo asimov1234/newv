@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package transport.internet;
 option csharp_namespace = "Xray.Transport.Internet";
-option go_package = "github.com/asimov/newv/transport/internet";
+option go_package = "github.com/asimov1234/newv/transport/internet";
 option java_package = "com.xray.transport.internet";
 option java_multiple_files = true;
 

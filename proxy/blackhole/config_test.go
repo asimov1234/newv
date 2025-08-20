@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	. "github.com/asimov/newv/proxy/blackhole"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	. "github.com/asimov1234/newv/proxy/blackhole"
 )
 
 func TestHTTPResponse(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 
 	"github.com/OmarTariq612/goech"
 	"github.com/cloudflare/circl/hpke"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/main/commands/base"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/main/commands/base"
 )
 
 var cmdECH = &base.Command{

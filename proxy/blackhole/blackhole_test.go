@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/serial"
-	"github.com/asimov/newv/common/session"
-	"github.com/asimov/newv/proxy/blackhole"
-	"github.com/asimov/newv/transport"
-	"github.com/asimov/newv/transport/pipe"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/serial"
+	"github.com/asimov1234/newv/common/session"
+	"github.com/asimov1234/newv/proxy/blackhole"
+	"github.com/asimov1234/newv/transport"
+	"github.com/asimov1234/newv/transport/pipe"
 )
 
 func TestBlackholeHTTPResponse(t *testing.T) {

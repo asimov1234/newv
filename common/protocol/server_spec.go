@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/asimov/newv/common/dice"
-	"github.com/asimov/newv/common/net"
+	"github.com/asimov1234/newv/common/dice"
+	"github.com/asimov1234/newv/common/net"
 )
 
 type ValidationStrategy interface {

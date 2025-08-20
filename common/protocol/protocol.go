@@ -1,1 +1,1 @@
-package protocol // import "github.com/asimov/newv/common/protocol"
+package protocol // import "github.com/asimov1234/newv/common/protocol"

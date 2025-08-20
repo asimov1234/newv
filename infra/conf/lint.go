@@ -1,6 +1,6 @@
 package conf
 
-import "github.com/asimov/newv/common/errors"
+import "github.com/asimov1234/newv/common/errors"
 
 type ConfigureFilePostProcessingStage interface {
 	Process(conf *Config) error

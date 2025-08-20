@@ -4,8 +4,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/platform"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/platform"
 )
 
 type FileReaderFunc func(path string) (io.ReadCloser, error)

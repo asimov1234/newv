@@ -11,18 +11,18 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/platform/filesystem"
-	"github.com/asimov/newv/common/serial"
-	"github.com/asimov/newv/transport/internet"
-	"github.com/asimov/newv/transport/internet/httpupgrade"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/platform/filesystem"
+	"github.com/asimov1234/newv/common/serial"
+	"github.com/asimov1234/newv/transport/internet"
+	"github.com/asimov1234/newv/transport/internet/httpupgrade"
 
-	"github.com/asimov/newv/transport/internet/reality"
+	"github.com/asimov1234/newv/transport/internet/reality"
 
-	"github.com/asimov/newv/transport/internet/tcp"
-	"github.com/asimov/newv/transport/internet/tls"
-	"github.com/asimov/newv/transport/internet/websocket"
+	"github.com/asimov1234/newv/transport/internet/tcp"
+	"github.com/asimov1234/newv/transport/internet/tls"
+	"github.com/asimov1234/newv/transport/internet/websocket"
 	"google.golang.org/protobuf/proto"
 )
 

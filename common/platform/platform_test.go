@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/asimov/newv/common"
-	. "github.com/asimov/newv/common/platform"
+	"github.com/asimov1234/newv/common"
+	. "github.com/asimov1234/newv/common/platform"
 )
 
 func TestNormalizeEnvName(t *testing.T) {

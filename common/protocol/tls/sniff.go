@@ -5,7 +5,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/asimov/newv/common"
+	"github.com/asimov1234/newv/common"
 )
 
 type SniffHeader struct {

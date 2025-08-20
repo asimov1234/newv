@@ -9,9 +9,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	. "github.com/asimov/newv/transport/pipe"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	. "github.com/asimov1234/newv/transport/pipe"
 )
 
 func TestPipeReadWrite(t *testing.T) {

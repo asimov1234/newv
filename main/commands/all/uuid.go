@@ -3,8 +3,8 @@ package all
 import (
 	"fmt"
 
-	"github.com/asimov/newv/common/uuid"
-	"github.com/asimov/newv/main/commands/base"
+	"github.com/asimov1234/newv/common/uuid"
+	"github.com/asimov1234/newv/main/commands/base"
 )
 
 var cmdUUID = &base.Command{

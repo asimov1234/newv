@@ -1,7 +1,7 @@
 package conf
 
 import (
-	"github.com/asimov/newv/transport/internet/grpc"
+	"github.com/asimov1234/newv/transport/internet/grpc"
 	"google.golang.org/protobuf/proto"
 )
 

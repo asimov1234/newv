@@ -4,12 +4,12 @@ import (
 	"context"
 	"strings"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/session"
-	"github.com/asimov/newv/core"
-	"github.com/asimov/newv/features/dns"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/session"
+	"github.com/asimov1234/newv/core"
+	"github.com/asimov1234/newv/features/dns"
 )
 
 // newFakeDNSSniffer Creates a Fake DNS metadata sniffer

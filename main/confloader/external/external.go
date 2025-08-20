@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/platform/ctlcmd"
-	"github.com/asimov/newv/main/confloader"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/platform/ctlcmd"
+	"github.com/asimov1234/newv/main/confloader"
 )
 
 func ConfigLoader(arg string) (out io.Reader, err error) {

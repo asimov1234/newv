@@ -8,13 +8,13 @@ import (
 	"hash/crc32"
 	"io"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/crypto"
-	"github.com/asimov/newv/common/drain"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/protocol"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/crypto"
+	"github.com/asimov1234/newv/common/drain"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/protocol"
 )
 
 const (

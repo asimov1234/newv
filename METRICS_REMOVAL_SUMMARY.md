@@ -19,7 +19,7 @@
 ### 2. 修改的文件
 
 #### `main/distro/all/all.go`
-- 移除了 `_ "github.com/asimov/newv/app/metrics"` 导入
+- 移除了 `_ "github.com/asimov1234/newv/app/metrics"` 导入
 
 #### `infra/conf/xray.go`
 - 在 `Config` 结构体中移除了 `Metrics *MetricsConfig` 字段

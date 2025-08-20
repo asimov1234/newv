@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/protocol/quic"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/protocol/quic"
 )
 
 func TestSniffQUIC(t *testing.T) {

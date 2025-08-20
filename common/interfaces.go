@@ -1,6 +1,6 @@
 package common
 
-import "github.com/asimov/newv/common/errors"
+import "github.com/asimov1234/newv/common/errors"
 
 // Closable is the interface for objects that can release its resources.
 //

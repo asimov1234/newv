@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/testing/servers/tcp"
-	. "github.com/asimov/newv/transport/internet"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/testing/servers/tcp"
+	. "github.com/asimov1234/newv/transport/internet"
 )
 
 func TestDialWithLocalAddr(t *testing.T) {

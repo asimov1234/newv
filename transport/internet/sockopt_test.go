@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/testing/servers/tcp"
-	. "github.com/asimov/newv/transport/internet"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/testing/servers/tcp"
+	. "github.com/asimov1234/newv/transport/internet"
 )
 
 func TestTCPFastOpen(t *testing.T) {

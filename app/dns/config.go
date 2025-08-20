@@ -1,10 +1,10 @@
 package dns
 
 import (
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/strmatcher"
-	"github.com/asimov/newv/common/uuid"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/strmatcher"
+	"github.com/asimov1234/newv/common/uuid"
 )
 
 var typeMap = map[DomainMatchingType]strmatcher.Type{

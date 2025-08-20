@@ -3,8 +3,8 @@ package command
 import (
 	"strings"
 
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/features/routing"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/features/routing"
 )
 
 // routingContext is an wrapper of protobuf RoutingContext as implementation of routing.Context and routing.Route.

@@ -14,12 +14,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/asimov/newv/common/cmdarg"
-	"github.com/asimov/newv/common/errors"
-	clog "github.com/asimov/newv/common/log"
-	"github.com/asimov/newv/common/platform"
-	"github.com/asimov/newv/core"
-	"github.com/asimov/newv/main/commands/base"
+	"github.com/asimov1234/newv/common/cmdarg"
+	"github.com/asimov1234/newv/common/errors"
+	clog "github.com/asimov1234/newv/common/log"
+	"github.com/asimov1234/newv/common/platform"
+	"github.com/asimov1234/newv/core"
+	"github.com/asimov1234/newv/main/commands/base"
 )
 
 var cmdRun = &base.Command{

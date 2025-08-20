@@ -6,13 +6,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/log"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/session"
-	"github.com/asimov/newv/core"
-	dns_feature "github.com/asimov/newv/features/dns"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/log"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/session"
+	"github.com/asimov1234/newv/core"
+	dns_feature "github.com/asimov1234/newv/features/dns"
 	"golang.org/x/net/dns/dnsmessage"
 )
 

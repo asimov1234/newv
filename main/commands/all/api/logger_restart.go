@@ -1,8 +1,8 @@
 package api
 
 import (
-	logService "github.com/asimov/newv/app/log/command"
-	"github.com/asimov/newv/main/commands/base"
+	logService "github.com/asimov1234/newv/app/log/command"
+	"github.com/asimov1234/newv/main/commands/base"
 )
 
 var cmdRestartLogger = &base.Command{

@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/asimov/newv/app/stats"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/features/stats"
+	. "github.com/asimov1234/newv/app/stats"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/features/stats"
 )
 
 func TestInterface(t *testing.T) {

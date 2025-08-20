@@ -1,4 +1,4 @@
-package uuid // import "github.com/asimov/newv/common/uuid"
+package uuid // import "github.com/asimov1234/newv/common/uuid"
 
 import (
 	"bytes"
@@ -6,8 +6,8 @@ import (
 	"crypto/sha1"
 	"encoding/hex"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/errors"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/errors"
 )
 
 var byteGroups = []int{8, 4, 4, 4, 12}

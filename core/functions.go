@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/net/cnc"
-	"github.com/asimov/newv/features/routing"
-	"github.com/asimov/newv/transport/internet/udp"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/net/cnc"
+	"github.com/asimov1234/newv/features/routing"
+	"github.com/asimov1234/newv/transport/internet/udp"
 )
 
 // CreateObject creates a new object based on the given Xray instance and config. The Xray instance may be nil.

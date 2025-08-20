@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/testing/servers/tcp"
-	"github.com/asimov/newv/transport/internet"
-	. "github.com/asimov/newv/transport/internet/tcp"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/testing/servers/tcp"
+	"github.com/asimov1234/newv/transport/internet"
+	. "github.com/asimov1234/newv/transport/internet/tcp"
 )
 
 func TestGetOriginalDestination(t *testing.T) {

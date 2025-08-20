@@ -1,7 +1,7 @@
 package all
 
 import (
-	"github.com/asimov/newv/main/commands/base"
+	"github.com/asimov1234/newv/main/commands/base"
 )
 
 var cmdX25519 = &base.Command{

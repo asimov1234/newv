@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
 )
 
 // ChunkSizeDecoder is a utility class to decode size value from bytes.

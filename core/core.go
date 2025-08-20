@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/asimov/newv/common/serial"
+	"github.com/asimov1234/newv/common/serial"
 )
 
 var (

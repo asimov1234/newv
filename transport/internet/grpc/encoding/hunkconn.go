@@ -5,11 +5,11 @@ import (
 	"io"
 	"net"
 
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/errors"
-	xnet "github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/net/cnc"
-	"github.com/asimov/newv/common/signal/done"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/errors"
+	xnet "github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/net/cnc"
+	"github.com/asimov1234/newv/common/signal/done"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
 )

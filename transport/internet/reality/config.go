@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/xtls/reality"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/transport/internet"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/transport/internet"
 )
 
 func (c *Config) GetREALITYConfig() *reality.Config {

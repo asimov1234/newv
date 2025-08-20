@@ -7,13 +7,13 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	http_proto "github.com/asimov/newv/common/protocol/http"
-	"github.com/asimov/newv/transport/internet"
-	"github.com/asimov/newv/transport/internet/stat"
-	v2tls "github.com/asimov/newv/transport/internet/tls"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	http_proto "github.com/asimov1234/newv/common/protocol/http"
+	"github.com/asimov1234/newv/transport/internet"
+	"github.com/asimov1234/newv/transport/internet/stat"
+	v2tls "github.com/asimov1234/newv/transport/internet/tls"
 )
 
 type server struct {

@@ -9,12 +9,12 @@ import (
 	"google.golang.org/protobuf/proto"
 	"io"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/antireplay"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/crypto"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/protocol"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/antireplay"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/crypto"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/protocol"
 	"golang.org/x/crypto/chacha20poly1305"
 	"golang.org/x/crypto/hkdf"
 )

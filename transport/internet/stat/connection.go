@@ -3,7 +3,7 @@ package stat
 import (
 	"net"
 
-	"github.com/asimov/newv/features/stats"
+	"github.com/asimov1234/newv/features/stats"
 )
 
 type Connection interface {

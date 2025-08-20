@@ -3,9 +3,9 @@ package api
 import (
 	"fmt"
 
-	handlerService "github.com/asimov/newv/app/proxyman/command"
-	"github.com/asimov/newv/infra/conf/serial"
-	"github.com/asimov/newv/main/commands/base"
+	handlerService "github.com/asimov1234/newv/app/proxyman/command"
+	"github.com/asimov1234/newv/infra/conf/serial"
+	"github.com/asimov1234/newv/main/commands/base"
 )
 
 var cmdRemoveOutbounds = &base.Command{

@@ -5,11 +5,11 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/cmdarg"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/main/confloader"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/cmdarg"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/main/confloader"
 	"google.golang.org/protobuf/proto"
 )
 

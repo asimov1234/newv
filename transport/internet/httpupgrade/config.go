@@ -1,8 +1,8 @@
 package httpupgrade
 
 import (
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/transport/internet"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/transport/internet"
 )
 
 func (c *Config) GetNormalizedPath() string {

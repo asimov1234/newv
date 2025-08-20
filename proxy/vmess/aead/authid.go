@@ -12,8 +12,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/antireplay"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/antireplay"
 )
 
 var (

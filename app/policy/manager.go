@@ -3,8 +3,8 @@ package policy
 import (
 	"context"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/features/policy"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/features/policy"
 )
 
 // Instance is an instance of Policy manager.

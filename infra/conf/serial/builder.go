@@ -4,11 +4,11 @@ import (
 	"context"
 	"io"
 
-	"github.com/asimov/newv/common/errors"
-	creflect "github.com/asimov/newv/common/reflect"
-	"github.com/asimov/newv/core"
-	"github.com/asimov/newv/infra/conf"
-	"github.com/asimov/newv/main/confloader"
+	"github.com/asimov1234/newv/common/errors"
+	creflect "github.com/asimov1234/newv/common/reflect"
+	"github.com/asimov1234/newv/core"
+	"github.com/asimov1234/newv/infra/conf"
+	"github.com/asimov1234/newv/main/confloader"
 )
 
 func MergeConfigFromFiles(files []*core.ConfigSource) (string, error) {

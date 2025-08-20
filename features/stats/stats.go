@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/features"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/features"
 )
 
 // Counter is the interface for stats counters.

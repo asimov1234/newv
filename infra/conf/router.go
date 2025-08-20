@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/asimov/newv/app/router"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/platform/filesystem"
-	"github.com/asimov/newv/common/serial"
+	"github.com/asimov1234/newv/app/router"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/platform/filesystem"
+	"github.com/asimov1234/newv/common/serial"
 	"google.golang.org/protobuf/proto"
 )
 

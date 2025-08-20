@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"testing"
 
-	. "github.com/asimov/newv/common/dice"
+	. "github.com/asimov1234/newv/common/dice"
 )
 
 func BenchmarkRoll1(b *testing.B) {

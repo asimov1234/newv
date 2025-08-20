@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 
-	creflect "github.com/asimov/newv/common/reflect"
-	cserial "github.com/asimov/newv/common/serial"
-	"github.com/asimov/newv/main/commands/base"
-	"github.com/asimov/newv/main/confloader"
+	creflect "github.com/asimov1234/newv/common/reflect"
+	cserial "github.com/asimov1234/newv/common/serial"
+	"github.com/asimov1234/newv/main/commands/base"
+	"github.com/asimov1234/newv/main/confloader"
 )
 
 var cmdJson = &base.Command{

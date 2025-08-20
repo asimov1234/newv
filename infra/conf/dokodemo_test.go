@@ -3,9 +3,9 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/asimov/newv/common/net"
-	. "github.com/asimov/newv/infra/conf"
-	"github.com/asimov/newv/proxy/dokodemo"
+	"github.com/asimov1234/newv/common/net"
+	. "github.com/asimov1234/newv/infra/conf"
+	"github.com/asimov1234/newv/proxy/dokodemo"
 )
 
 func TestDokodemoConfig(t *testing.T) {

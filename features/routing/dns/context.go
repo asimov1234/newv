@@ -3,10 +3,10 @@ package dns
 import (
 	"context"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/features/dns"
-	"github.com/asimov/newv/features/routing"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/features/dns"
+	"github.com/asimov1234/newv/features/routing"
 )
 
 // ResolvableContext is an implementation of routing.Context, with domain resolving capability.

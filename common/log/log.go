@@ -1,9 +1,9 @@
-package log // import "github.com/asimov/newv/common/log"
+package log // import "github.com/asimov1234/newv/common/log"
 
 import (
 	"sync"
 
-	"github.com/asimov/newv/common/serial"
+	"github.com/asimov1234/newv/common/serial"
 )
 
 // Message is the interface for all log messages.

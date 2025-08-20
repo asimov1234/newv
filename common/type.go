@@ -4,7 +4,7 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/asimov/newv/common/errors"
+	"github.com/asimov1234/newv/common/errors"
 )
 
 // ConfigCreator is a function to create an object by a config.

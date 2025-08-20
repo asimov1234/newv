@@ -8,9 +8,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/asimov/newv/common"
-	. "github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/transport/pipe"
+	"github.com/asimov1234/newv/common"
+	. "github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/transport/pipe"
 )
 
 func TestWriter(t *testing.T) {

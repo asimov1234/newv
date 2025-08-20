@@ -7,13 +7,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/asimov/newv/app/router"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/session"
-	"github.com/asimov/newv/common/strmatcher"
-	"github.com/asimov/newv/features/dns"
+	"github.com/asimov1234/newv/app/router"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/session"
+	"github.com/asimov1234/newv/common/strmatcher"
+	"github.com/asimov1234/newv/features/dns"
 )
 
 // DNS is a DNS rely server.

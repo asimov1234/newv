@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/errors"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/errors"
 )
 
 // Channel is an implementation of stats.Channel.

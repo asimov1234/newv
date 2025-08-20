@@ -3,9 +3,9 @@ package conf
 import (
 	"encoding/json"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/serial"
-	"github.com/asimov/newv/proxy/blackhole"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/serial"
+	"github.com/asimov1234/newv/proxy/blackhole"
 	"google.golang.org/protobuf/proto"
 )
 

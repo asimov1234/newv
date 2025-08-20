@@ -4,11 +4,11 @@ import (
 	"context"
 	"io"
 
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/protocol"
-	"github.com/asimov/newv/proxy"
-	"github.com/asimov/newv/proxy/vless"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/protocol"
+	"github.com/asimov1234/newv/proxy"
+	"github.com/asimov1234/newv/proxy/vless"
 	"google.golang.org/protobuf/proto"
 )
 

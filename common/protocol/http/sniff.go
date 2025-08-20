@@ -6,9 +6,9 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/session"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/session"
 )
 
 type version byte

@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/asimov/newv/app/dns/fakedns"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/features/dns"
+	"github.com/asimov1234/newv/app/dns/fakedns"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/features/dns"
 )
 
 type FakeDNSPoolElementConfig struct {

@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/asimov/newv/common/cmdarg"
-	creflect "github.com/asimov/newv/common/reflect"
-	"github.com/asimov/newv/core"
-	"github.com/asimov/newv/main/commands/base"
+	"github.com/asimov1234/newv/common/cmdarg"
+	creflect "github.com/asimov1234/newv/common/reflect"
+	"github.com/asimov1234/newv/core"
+	"github.com/asimov1234/newv/main/commands/base"
 
 	"google.golang.org/protobuf/proto"
 )

@@ -11,8 +11,8 @@ import (
 
 	"github.com/pires/go-proxyproto"
 	"github.com/sagernet/sing/common/control"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
 )
 
 var effectiveListener = DefaultListener{}

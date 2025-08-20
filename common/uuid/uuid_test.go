@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/asimov/newv/common"
-	. "github.com/asimov/newv/common/uuid"
+	"github.com/asimov1234/newv/common"
+	. "github.com/asimov1234/newv/common/uuid"
 )
 
 func TestParseBytes(t *testing.T) {

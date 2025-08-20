@@ -8,25 +8,25 @@ import (
 	"time"
 
 	"github.com/pires/go-proxyproto"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/dice"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/platform"
-	"github.com/asimov/newv/common/retry"
-	"github.com/asimov/newv/common/session"
-	"github.com/asimov/newv/common/signal"
-	"github.com/asimov/newv/common/task"
-	"github.com/asimov/newv/core"
-	"github.com/asimov/newv/features/dns"
-	"github.com/asimov/newv/features/policy"
-	"github.com/asimov/newv/features/stats"
-	"github.com/asimov/newv/proxy"
-	"github.com/asimov/newv/transport"
-	"github.com/asimov/newv/transport/internet"
-	"github.com/asimov/newv/transport/internet/stat"
-	"github.com/asimov/newv/transport/internet/tls"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/dice"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/platform"
+	"github.com/asimov1234/newv/common/retry"
+	"github.com/asimov1234/newv/common/session"
+	"github.com/asimov1234/newv/common/signal"
+	"github.com/asimov1234/newv/common/task"
+	"github.com/asimov1234/newv/core"
+	"github.com/asimov1234/newv/features/dns"
+	"github.com/asimov1234/newv/features/policy"
+	"github.com/asimov1234/newv/features/stats"
+	"github.com/asimov1234/newv/proxy"
+	"github.com/asimov1234/newv/transport"
+	"github.com/asimov1234/newv/transport/internet"
+	"github.com/asimov1234/newv/transport/internet/stat"
+	"github.com/asimov1234/newv/transport/internet/tls"
 )
 
 var useSplice bool
@@ -509,7 +509,7 @@ func (f *FragmentWriter) Write(b []byte) (int, error) {
 	}
 }
 
-// stolen from github.com/asimov/newv/transport/internet/reality
+// stolen from github.com/asimov1234/newv/transport/internet/reality
 func randBetween(left int64, right int64) int64 {
 	if left == right {
 		return left

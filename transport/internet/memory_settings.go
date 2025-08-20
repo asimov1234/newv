@@ -1,6 +1,6 @@
 package internet
 
-import "github.com/asimov/newv/common/net"
+import "github.com/asimov1234/newv/common/net"
 
 // MemoryStreamConfig is a parsed form of StreamConfig. It is used to reduce the number of Protobuf parses.
 type MemoryStreamConfig struct {

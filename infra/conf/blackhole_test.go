@@ -3,9 +3,9 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/asimov/newv/common/serial"
-	. "github.com/asimov/newv/infra/conf"
-	"github.com/asimov/newv/proxy/blackhole"
+	"github.com/asimov1234/newv/common/serial"
+	. "github.com/asimov1234/newv/infra/conf"
+	"github.com/asimov1234/newv/proxy/blackhole"
 )
 
 func TestHTTPResponseJSON(t *testing.T) {

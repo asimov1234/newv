@@ -3,7 +3,7 @@ package bitmask_test
 import (
 	"testing"
 
-	. "github.com/asimov/newv/common/bitmask"
+	. "github.com/asimov1234/newv/common/bitmask"
 )
 
 func TestBitmaskByte(t *testing.T) {

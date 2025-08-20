@@ -1,10 +1,10 @@
 package dns
 
 import (
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/serial"
-	"github.com/asimov/newv/features"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/serial"
+	"github.com/asimov1234/newv/features"
 )
 
 // IPOption is an object for IP query options.

@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/core"
-	"github.com/asimov/newv/features/routing"
-	"github.com/asimov/newv/features/stats"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/core"
+	"github.com/asimov1234/newv/features/routing"
+	"github.com/asimov1234/newv/features/stats"
 	"google.golang.org/grpc"
 )
 

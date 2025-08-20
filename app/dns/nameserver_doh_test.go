@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	. "github.com/asimov/newv/app/dns"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/net"
-	dns_feature "github.com/asimov/newv/features/dns"
+	. "github.com/asimov1234/newv/app/dns"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/net"
+	dns_feature "github.com/asimov1234/newv/features/dns"
 )
 
 func TestDOHNameServer(t *testing.T) {

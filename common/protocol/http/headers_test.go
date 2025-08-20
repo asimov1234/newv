@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/net"
-	. "github.com/asimov/newv/common/protocol/http"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/net"
+	. "github.com/asimov1234/newv/common/protocol/http"
 )
 
 func TestParseXForwardedFor(t *testing.T) {

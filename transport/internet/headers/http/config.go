@@ -3,7 +3,7 @@ package http
 import (
 	"strings"
 
-	"github.com/asimov/newv/common/dice"
+	"github.com/asimov1234/newv/common/dice"
 )
 
 func pickString(arr []string) string {

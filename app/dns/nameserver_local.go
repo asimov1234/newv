@@ -5,11 +5,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/log"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/features/dns"
-	"github.com/asimov/newv/features/dns/localdns"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/log"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/features/dns"
+	"github.com/asimov1234/newv/features/dns/localdns"
 )
 
 // LocalNameServer is an wrapper over local DNS feature.

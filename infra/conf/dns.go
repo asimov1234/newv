@@ -5,10 +5,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/asimov/newv/app/dns"
-	"github.com/asimov/newv/app/router"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
+	"github.com/asimov1234/newv/app/dns"
+	"github.com/asimov1234/newv/app/router"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
 )
 
 type NameServerConfig struct {

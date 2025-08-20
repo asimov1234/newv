@@ -8,9 +8,9 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/transport/internet/stat"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/transport/internet/stat"
 )
 
 const SO_ORIGINAL_DST = 80

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package transport.internet.tls;
 option csharp_namespace = "Xray.Transport.Internet.Tls";
-option go_package = "github.com/asimov/newv/transport/internet/tls";
+option go_package = "github.com/asimov1234/newv/transport/internet/tls";
 option java_package = "com.xray.transport.internet.tls";
 option java_multiple_files = true;
 

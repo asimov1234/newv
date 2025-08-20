@@ -3,8 +3,8 @@ package conf
 import (
 	"strings"
 
-	"github.com/asimov/newv/app/log"
-	clog "github.com/asimov/newv/common/log"
+	"github.com/asimov1234/newv/app/log"
+	clog "github.com/asimov1234/newv/common/log"
 )
 
 func DefaultLogConfig() *log.Config {

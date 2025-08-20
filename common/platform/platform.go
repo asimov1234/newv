@@ -1,4 +1,4 @@
-package platform // import "github.com/asimov/newv/common/platform"
+package platform // import "github.com/asimov1234/newv/common/platform"
 
 import (
 	"os"

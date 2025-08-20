@@ -7,8 +7,8 @@ import (
 	"net/netip"
 	"strings"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/log"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/log"
 	"golang.zx2c4.com/wireguard/device"
 )
 

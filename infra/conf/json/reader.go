@@ -3,7 +3,7 @@ package json
 import (
 	"io"
 
-	"github.com/asimov/newv/common/buf"
+	"github.com/asimov1234/newv/common/buf"
 )
 
 // State is the internal state of parser.

@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/protocol/tls/cert"
-	"github.com/asimov/newv/common/task"
-	"github.com/asimov/newv/main/commands/base"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/protocol/tls/cert"
+	"github.com/asimov1234/newv/common/task"
+	"github.com/asimov1234/newv/main/commands/base"
 )
 
 // cmdCert is the tls cert command

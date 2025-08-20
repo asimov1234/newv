@@ -3,7 +3,7 @@ package pipe
 import (
 	"time"
 
-	"github.com/asimov/newv/common/buf"
+	"github.com/asimov1234/newv/common/buf"
 )
 
 // Reader is a buf.Reader that reads content from a pipe.

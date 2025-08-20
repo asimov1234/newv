@@ -6,7 +6,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/asimov/newv/common/errors"
+	"github.com/asimov1234/newv/common/errors"
 )
 
 const (

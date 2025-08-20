@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/asimov/newv/common/platform"
-	"github.com/asimov/newv/common/signal/done"
-	"github.com/asimov/newv/common/signal/semaphore"
+	"github.com/asimov1234/newv/common/platform"
+	"github.com/asimov1234/newv/common/signal/done"
+	"github.com/asimov1234/newv/common/signal/semaphore"
 )
 
 // Writer is the interface for writing logs.

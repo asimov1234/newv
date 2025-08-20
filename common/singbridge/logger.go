@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/sagernet/sing/common/logger"
-	"github.com/asimov/newv/common/errors"
+	"github.com/asimov1234/newv/common/errors"
 )
 
 var _ logger.ContextLogger = (*XrayLogger)(nil)

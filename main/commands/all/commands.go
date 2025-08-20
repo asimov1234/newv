@@ -1,10 +1,10 @@
 package all
 
 import (
-	"github.com/asimov/newv/main/commands/all/api"
-	"github.com/asimov/newv/main/commands/all/convert"
-	"github.com/asimov/newv/main/commands/all/tls"
-	"github.com/asimov/newv/main/commands/base"
+	"github.com/asimov1234/newv/main/commands/all/api"
+	"github.com/asimov1234/newv/main/commands/all/convert"
+	"github.com/asimov1234/newv/main/commands/all/tls"
+	"github.com/asimov1234/newv/main/commands/base"
 )
 
 func init() {

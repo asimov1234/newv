@@ -8,7 +8,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/asimov/newv/common/uuid"
+	"github.com/asimov1234/newv/common/uuid"
 )
 
 func BuildXray() error {
@@ -17,7 +17,7 @@ func BuildXray() error {
 		return nil
 	}
 
-	cmd := exec.Command("go", "test", "-tags", "coverage coveragemain", "-coverpkg", "github.com/asimov/newv/...", "-c", "-o", testBinaryPath, GetSourcePath())
+	cmd := exec.Command("go", "test", "-tags", "coverage coveragemain", "-coverpkg", "github.com/asimov1234/newv/...", "-c", "-o", testBinaryPath, GetSourcePath())
 	return cmd.Run()
 }
 

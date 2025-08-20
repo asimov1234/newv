@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"strings"
 
-	cnet "github.com/asimov/newv/common/net"
-	cserial "github.com/asimov/newv/common/serial"
-	"github.com/asimov/newv/infra/conf"
+	cnet "github.com/asimov1234/newv/common/net"
+	cserial "github.com/asimov1234/newv/common/serial"
+	"github.com/asimov1234/newv/infra/conf"
 )
 
 func MarshalToJson(v interface{}, insertTypeInfo bool) (string, bool) {

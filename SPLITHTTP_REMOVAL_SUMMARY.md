@@ -23,10 +23,10 @@
 ### 2. 修改的文件
 
 #### `main/distro/all/all.go`
-- 移除了 `_ "github.com/asimov/newv/transport/internet/splithttp"` 导入
+- 移除了 `_ "github.com/asimov1234/newv/transport/internet/splithttp"` 导入
 
 #### `infra/conf/transport_internet.go`
-- 移除了 `"github.com/asimov/newv/transport/internet/splithttp"` 导入
+- 移除了 `"github.com/asimov1234/newv/transport/internet/splithttp"` 导入
 - 删除了 `SplitHTTPConfig` 结构体
 - 删除了 `XmuxConfig` 结构体
 - 删除了 `newRangeConfig()` 函数
@@ -38,7 +38,7 @@
   - 更新了REALITY支持的协议列表（移除splithttp）
 
 #### `app/proxyman/inbound/inbound.go`
-- 移除了 `"github.com/asimov/newv/common/net"` 导入
+- 移除了 `"github.com/asimov1234/newv/common/net"` 导入
 - 删除了splithttp协议的特殊UDP网络处理逻辑
 
 ## 影响评估

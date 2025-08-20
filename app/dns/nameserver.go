@@ -6,13 +6,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/asimov/newv/app/router"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/strmatcher"
-	"github.com/asimov/newv/core"
-	"github.com/asimov/newv/features/dns"
-	"github.com/asimov/newv/features/routing"
+	"github.com/asimov1234/newv/app/router"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/strmatcher"
+	"github.com/asimov1234/newv/core"
+	"github.com/asimov1234/newv/features/dns"
+	"github.com/asimov1234/newv/features/routing"
 )
 
 // Server is the interface for Name Server.

@@ -3,10 +3,10 @@ package mux_test
 import (
 	"testing"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/mux"
-	"github.com/asimov/newv/common/net"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/mux"
+	"github.com/asimov1234/newv/common/net"
 )
 
 func BenchmarkFrameWrite(b *testing.B) {

@@ -3,7 +3,7 @@ package router
 import (
 	"context"
 
-	"github.com/asimov/newv/common/dice"
+	"github.com/asimov1234/newv/common/dice"
 )
 
 // RandomStrategy represents a random balancing strategy

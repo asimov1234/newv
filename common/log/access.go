@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/asimov/newv/common/serial"
+	"github.com/asimov1234/newv/common/serial"
 )
 
 type logKey int

@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"strconv"
 
-	"github.com/asimov/newv/common/errors"
+	"github.com/asimov1234/newv/common/errors"
 )
 
 // Port represents a network port in TCP and UDP protocol.

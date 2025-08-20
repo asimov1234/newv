@@ -3,8 +3,8 @@ package conf
 import (
 	"google.golang.org/protobuf/proto"
 
-	"github.com/asimov/newv/app/router"
-	"github.com/asimov/newv/infra/conf/cfgcommon/duration"
+	"github.com/asimov1234/newv/app/router"
+	"github.com/asimov1234/newv/infra/conf/cfgcommon/duration"
 )
 
 const (

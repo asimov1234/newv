@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/dice"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/dice"
 )
 
 type DNS struct {

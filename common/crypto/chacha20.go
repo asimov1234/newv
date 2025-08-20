@@ -3,7 +3,7 @@ package crypto
 import (
 	"crypto/cipher"
 
-	"github.com/asimov/newv/common/crypto/internal"
+	"github.com/asimov1234/newv/common/crypto/internal"
 )
 
 // NewChaCha20Stream creates a new Chacha20 encryption/descryption stream based on give key and IV.

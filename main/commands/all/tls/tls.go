@@ -1,7 +1,7 @@
 package tls
 
 import (
-	"github.com/asimov/newv/main/commands/base"
+	"github.com/asimov1234/newv/main/commands/base"
 )
 
 // CmdTLS holds all tls sub commands

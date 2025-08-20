@@ -3,7 +3,7 @@ package net_test
 import (
 	"testing"
 
-	. "github.com/asimov/newv/common/net"
+	. "github.com/asimov1234/newv/common/net"
 )
 
 func TestPortRangeContains(t *testing.T) {

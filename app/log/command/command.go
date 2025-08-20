@@ -3,10 +3,10 @@ package command
 import (
 	"context"
 
-	"github.com/asimov/newv/app/log"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/core"
+	"github.com/asimov1234/newv/app/log"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/core"
 	grpc "google.golang.org/grpc"
 )
 

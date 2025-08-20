@@ -3,11 +3,11 @@ package api
 import (
 	"fmt"
 
-	routerService "github.com/asimov/newv/app/router/command"
-	cserial "github.com/asimov/newv/common/serial"
-	"github.com/asimov/newv/infra/conf"
-	"github.com/asimov/newv/infra/conf/serial"
-	"github.com/asimov/newv/main/commands/base"
+	routerService "github.com/asimov1234/newv/app/router/command"
+	cserial "github.com/asimov1234/newv/common/serial"
+	"github.com/asimov1234/newv/infra/conf"
+	"github.com/asimov1234/newv/infra/conf/serial"
+	"github.com/asimov1234/newv/main/commands/base"
 )
 
 var cmdAddRules = &base.Command{

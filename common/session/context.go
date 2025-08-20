@@ -4,9 +4,9 @@ import (
 	"context"
 	_ "unsafe"
 
-	"github.com/asimov/newv/common/ctx"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/features/routing"
+	"github.com/asimov1234/newv/common/ctx"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/features/routing"
 )
 
 //go:linkname IndependentCancelCtx context.newCancelCtx

@@ -8,9 +8,9 @@ import (
 	"encoding/gob"
 	"io"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/transport/internet"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/transport/internet"
 )
 
 // RetrieveOriginalDest from stored laddr, caddr

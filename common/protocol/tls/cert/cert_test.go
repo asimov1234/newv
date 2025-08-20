@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/task"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/task"
 )
 
 func TestGenerate(t *testing.T) {

@@ -5,11 +5,11 @@ import (
 
 	"github.com/sagernet/sing-shadowsocks/shadowaead_2022"
 	C "github.com/sagernet/sing/common"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/protocol"
-	"github.com/asimov/newv/common/serial"
-	"github.com/asimov/newv/proxy/shadowsocks"
-	"github.com/asimov/newv/proxy/shadowsocks_2022"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/protocol"
+	"github.com/asimov1234/newv/common/serial"
+	"github.com/asimov1234/newv/proxy/shadowsocks"
+	"github.com/asimov1234/newv/proxy/shadowsocks_2022"
 	"google.golang.org/protobuf/proto"
 )
 

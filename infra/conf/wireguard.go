@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"strings"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/proxy/wireguard"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/proxy/wireguard"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -5,11 +5,11 @@ import (
 	"net"
 	"sync"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/signal/done"
-	core "github.com/asimov/newv/core"
-	"github.com/asimov/newv/features/outbound"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/signal/done"
+	core "github.com/asimov1234/newv/core"
+	"github.com/asimov1234/newv/features/outbound"
 	"google.golang.org/grpc"
 )
 

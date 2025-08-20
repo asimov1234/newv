@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/protocol/tls/cert"
-	. "github.com/asimov/newv/transport/internet/tls"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/protocol/tls/cert"
+	. "github.com/asimov1234/newv/transport/internet/tls"
 )
 
 func TestCertificateIssuing(t *testing.T) {

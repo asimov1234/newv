@@ -3,9 +3,9 @@ package inbound
 import (
 	"context"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/features"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/features"
 )
 
 // Handler is the interface for handlers that process inbound connections.

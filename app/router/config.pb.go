@@ -7,8 +7,8 @@
 package router
 
 import (
-	net "github.com/asimov/newv/common/net"
-	serial "github.com/asimov/newv/common/serial"
+	net "github.com/asimov1234/newv/common/net"
+	serial "github.com/asimov1234/newv/common/serial"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

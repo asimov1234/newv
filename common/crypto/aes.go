@@ -4,7 +4,7 @@ import (
 	"crypto/aes"
 	"crypto/cipher"
 
-	"github.com/asimov/newv/common"
+	"github.com/asimov1234/newv/common"
 )
 
 // NewAesDecryptionStream creates a new AES encryption stream based on given key and IV.

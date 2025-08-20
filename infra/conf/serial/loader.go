@@ -7,10 +7,10 @@ import (
 
 	"github.com/ghodss/yaml"
 	"github.com/pelletier/go-toml"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/core"
-	"github.com/asimov/newv/infra/conf"
-	json_reader "github.com/asimov/newv/infra/conf/json"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/core"
+	"github.com/asimov1234/newv/infra/conf"
+	json_reader "github.com/asimov1234/newv/infra/conf/json"
 )
 
 type offset struct {

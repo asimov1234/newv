@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	. "github.com/asimov/newv/common"
+	. "github.com/asimov1234/newv/common"
 )
 
 type TConfig struct {

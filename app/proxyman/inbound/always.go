@@ -3,17 +3,17 @@ package inbound
 import (
 	"context"
 
-	"github.com/asimov/newv/app/proxyman"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/dice"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/mux"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/core"
-	"github.com/asimov/newv/features/policy"
-	"github.com/asimov/newv/features/stats"
-	"github.com/asimov/newv/proxy"
-	"github.com/asimov/newv/transport/internet"
+	"github.com/asimov1234/newv/app/proxyman"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/dice"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/mux"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/core"
+	"github.com/asimov1234/newv/features/policy"
+	"github.com/asimov1234/newv/features/stats"
+	"github.com/asimov1234/newv/proxy"
+	"github.com/asimov1234/newv/transport/internet"
 )
 
 func getStatCounter(v *core.Instance, tag string) (stats.Counter, stats.Counter) {

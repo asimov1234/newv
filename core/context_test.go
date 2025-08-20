@@ -5,7 +5,7 @@ import (
 	"testing"
 	_ "unsafe"
 
-	. "github.com/asimov/newv/core"
+	. "github.com/asimov1234/newv/core"
 )
 
 func TestFromContextPanic(t *testing.T) {

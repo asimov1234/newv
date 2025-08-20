@@ -8,11 +8,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/protocol"
-	"github.com/asimov/newv/common/serial"
-	"github.com/asimov/newv/proxy/trojan"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/protocol"
+	"github.com/asimov1234/newv/common/serial"
+	"github.com/asimov1234/newv/proxy/trojan"
 	"google.golang.org/protobuf/proto"
 )
 

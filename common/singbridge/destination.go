@@ -3,7 +3,7 @@ package singbridge
 import (
 	M "github.com/sagernet/sing/common/metadata"
 	N "github.com/sagernet/sing/common/network"
-	"github.com/asimov/newv/common/net"
+	"github.com/asimov1234/newv/common/net"
 )
 
 func ToNetwork(network string) net.Network {

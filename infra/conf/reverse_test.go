@@ -3,8 +3,8 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/asimov/newv/app/reverse"
-	"github.com/asimov/newv/infra/conf"
+	"github.com/asimov1234/newv/app/reverse"
+	"github.com/asimov1234/newv/infra/conf"
 )
 
 func TestReverseConfig(t *testing.T) {

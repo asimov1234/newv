@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/platform/filesystem"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/platform/filesystem"
 	"golang.org/x/crypto/ocsp"
 )
 

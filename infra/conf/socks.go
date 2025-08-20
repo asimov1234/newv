@@ -3,10 +3,10 @@ package conf
 import (
 	"encoding/json"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/protocol"
-	"github.com/asimov/newv/common/serial"
-	"github.com/asimov/newv/proxy/socks"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/protocol"
+	"github.com/asimov1234/newv/common/serial"
+	"github.com/asimov1234/newv/proxy/socks"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -3,17 +3,17 @@ package internet
 import (
 	"context"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/dice"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/net/cnc"
-	"github.com/asimov/newv/common/session"
-	"github.com/asimov/newv/features/dns"
-	"github.com/asimov/newv/features/outbound"
-	"github.com/asimov/newv/transport"
-	"github.com/asimov/newv/transport/internet/stat"
-	"github.com/asimov/newv/transport/pipe"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/dice"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/net/cnc"
+	"github.com/asimov1234/newv/common/session"
+	"github.com/asimov1234/newv/features/dns"
+	"github.com/asimov1234/newv/features/outbound"
+	"github.com/asimov1234/newv/transport"
+	"github.com/asimov1234/newv/transport/internet/stat"
+	"github.com/asimov1234/newv/transport/pipe"
 )
 
 // Dialer is the interface for dialing outbound connections.

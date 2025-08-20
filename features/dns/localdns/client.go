@@ -1,8 +1,8 @@
 package localdns
 
 import (
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/features/dns"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/features/dns"
 )
 
 // Client is an implementation of dns.Client, which queries localhost for DNS.

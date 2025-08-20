@@ -6,9 +6,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/asimov/newv/app/stats"
-	. "github.com/asimov/newv/app/stats/command"
-	"github.com/asimov/newv/common"
+	"github.com/asimov1234/newv/app/stats"
+	. "github.com/asimov1234/newv/app/stats/command"
+	"github.com/asimov1234/newv/common"
 )
 
 func TestGetStats(t *testing.T) {

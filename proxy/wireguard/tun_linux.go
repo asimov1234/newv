@@ -15,7 +15,7 @@ import (
 
 	"github.com/sagernet/sing/common/control"
 	"github.com/vishvananda/netlink"
-	"github.com/asimov/newv/common/errors"
+	"github.com/asimov1234/newv/common/errors"
 	wgtun "golang.zx2c4.com/wireguard/tun"
 )
 

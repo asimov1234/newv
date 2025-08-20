@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/asimov/newv/main/commands/base"
-	. "github.com/asimov/newv/transport/internet/tls"
+	"github.com/asimov1234/newv/main/commands/base"
+	. "github.com/asimov1234/newv/transport/internet/tls"
 )
 
 // cmdPing is the tls ping command

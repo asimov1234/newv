@@ -1,9 +1,9 @@
 package dispatcher
 
 import (
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/features/stats"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/features/stats"
 )
 
 type SizeStatWriter struct {

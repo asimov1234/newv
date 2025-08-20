@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/asimov/newv/common/errors"
+	"github.com/asimov1234/newv/common/errors"
 )
 
 type ConfigCreator func() interface{}

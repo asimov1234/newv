@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	. "github.com/asimov/newv/infra/conf"
-	"github.com/asimov/newv/transport/internet"
+	. "github.com/asimov1234/newv/infra/conf"
+	"github.com/asimov1234/newv/transport/internet"
 	"google.golang.org/protobuf/proto"
 )
 

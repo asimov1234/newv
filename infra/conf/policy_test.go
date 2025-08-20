@@ -3,8 +3,8 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/asimov/newv/common"
-	. "github.com/asimov/newv/infra/conf"
+	"github.com/asimov1234/newv/common"
+	. "github.com/asimov1234/newv/infra/conf"
 )
 
 func TestBufferSize(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"crypto/rand"
 	"io"
 
-	"github.com/asimov/newv/common/dice"
+	"github.com/asimov1234/newv/common/dice"
 )
 
 func (c *Control) FillInRandom() {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	. "github.com/asimov/newv/common/protocol/http"
+	. "github.com/asimov1234/newv/common/protocol/http"
 )
 
 func TestHTTPHeaders(t *testing.T) {

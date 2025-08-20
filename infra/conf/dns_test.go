@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/asimov/newv/app/dns"
-	"github.com/asimov/newv/common/net"
-	. "github.com/asimov/newv/infra/conf"
+	"github.com/asimov1234/newv/app/dns"
+	"github.com/asimov1234/newv/common/net"
+	. "github.com/asimov1234/newv/infra/conf"
 	"google.golang.org/protobuf/proto"
 )
 

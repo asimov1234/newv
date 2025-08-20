@@ -8,9 +8,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/features/stats"
-	"github.com/asimov/newv/transport/internet/stat"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/features/stats"
+	"github.com/asimov1234/newv/transport/internet/stat"
 )
 
 // Reader extends io.Reader with MultiBuffer.

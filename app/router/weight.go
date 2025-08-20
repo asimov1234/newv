@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/asimov/newv/common/errors"
+	"github.com/asimov1234/newv/common/errors"
 )
 
 type weightScaler func(value, weight float64) float64

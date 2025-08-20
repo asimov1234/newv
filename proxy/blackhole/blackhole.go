@@ -5,10 +5,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/session"
-	"github.com/asimov/newv/transport"
-	"github.com/asimov/newv/transport/internet"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/session"
+	"github.com/asimov1234/newv/transport"
+	"github.com/asimov1234/newv/transport/internet"
 )
 
 // Handler is an outbound connection that silently swallow the entire payload.

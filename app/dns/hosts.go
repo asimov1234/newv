@@ -3,10 +3,10 @@ package dns
 import (
 	"context"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/strmatcher"
-	"github.com/asimov/newv/features/dns"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/strmatcher"
+	"github.com/asimov1234/newv/features/dns"
 )
 
 // StaticHosts represents static domain-ip mapping in DNS server.

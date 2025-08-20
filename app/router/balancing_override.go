@@ -3,7 +3,7 @@ package router
 import (
 	sync "sync"
 
-	"github.com/asimov/newv/common/errors"
+	"github.com/asimov1234/newv/common/errors"
 )
 
 func (r *Router) OverrideBalancer(balancer string, target string) error {

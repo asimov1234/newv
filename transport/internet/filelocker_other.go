@@ -7,7 +7,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/asimov/newv/common/errors"
+	"github.com/asimov1234/newv/common/errors"
 	"golang.org/x/sys/unix"
 )
 

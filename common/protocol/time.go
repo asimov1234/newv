@@ -3,7 +3,7 @@ package protocol
 import (
 	"time"
 
-	"github.com/asimov/newv/common/dice"
+	"github.com/asimov1234/newv/common/dice"
 )
 
 type Timestamp int64

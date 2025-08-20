@@ -3,7 +3,7 @@ package policy
 import (
 	"time"
 
-	"github.com/asimov/newv/features/policy"
+	"github.com/asimov1234/newv/features/policy"
 )
 
 // Duration converts Second to time.Duration.

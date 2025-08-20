@@ -9,7 +9,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/asimov/newv/common"
+	"github.com/asimov1234/newv/common"
 )
 
 func SealVMessAEADHeader(key [16]byte, data []byte) []byte {

@@ -3,7 +3,7 @@ package task
 import (
 	"context"
 
-	"github.com/asimov/newv/common/signal/semaphore"
+	"github.com/asimov1234/newv/common/signal/semaphore"
 )
 
 // OnSuccess executes g() after f() returns nil.

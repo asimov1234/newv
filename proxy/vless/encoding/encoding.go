@@ -5,15 +5,15 @@ import (
 	"context"
 	"io"
 
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/protocol"
-	"github.com/asimov/newv/common/session"
-	"github.com/asimov/newv/common/signal"
-	"github.com/asimov/newv/features/stats"
-	"github.com/asimov/newv/proxy"
-	"github.com/asimov/newv/proxy/vless"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/protocol"
+	"github.com/asimov1234/newv/common/session"
+	"github.com/asimov1234/newv/common/signal"
+	"github.com/asimov1234/newv/features/stats"
+	"github.com/asimov1234/newv/proxy"
+	"github.com/asimov1234/newv/proxy/vless"
 )
 
 const (

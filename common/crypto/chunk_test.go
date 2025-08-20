@@ -5,9 +5,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	. "github.com/asimov/newv/common/crypto"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	. "github.com/asimov1234/newv/common/crypto"
 )
 
 func TestChunkStreamIO(t *testing.T) {

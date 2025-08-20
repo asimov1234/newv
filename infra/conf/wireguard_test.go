@@ -3,8 +3,8 @@ package conf_test
 import (
 	"testing"
 
-	. "github.com/asimov/newv/infra/conf"
-	"github.com/asimov/newv/proxy/wireguard"
+	. "github.com/asimov1234/newv/infra/conf"
+	"github.com/asimov1234/newv/proxy/wireguard"
 )
 
 func TestWireGuardConfig(t *testing.T) {

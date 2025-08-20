@@ -1,4 +1,4 @@
-module github.com/asimov/newv
+module github.com/asimov1234/newv
 
 go 1.23
 

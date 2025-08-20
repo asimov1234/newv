@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/cache"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/features/dns"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/cache"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/features/dns"
 )
 
 type Holder struct {

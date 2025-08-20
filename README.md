@@ -146,7 +146,7 @@ CGO_ENABLED=0 go build -o xray -trimpath -buildvcs=false -ldflags="-s -w -buildi
 Make sure that you are using the same Go version, and remember to set the git commit id (7 bytes):
 
 ```bash
-CGO_ENABLED=0 go build -o xray -trimpath -buildvcs=false -ldflags="-X github.com/asimov/newv/core.build=REPLACE -s -w -buildid=" -v ./main
+CGO_ENABLED=0 go build -o xray -trimpath -buildvcs=false -ldflags="-X github.com/asimov1234/newv/core.build=REPLACE -s -w -buildid=" -v ./main
 ```
 
 ## Stargazers over time

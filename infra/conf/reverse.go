@@ -1,7 +1,7 @@
 package conf
 
 import (
-	"github.com/asimov/newv/app/reverse"
+	"github.com/asimov1234/newv/app/reverse"
 	"google.golang.org/protobuf/proto"
 )
 

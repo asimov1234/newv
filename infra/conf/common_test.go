@@ -7,10 +7,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/protocol"
-	. "github.com/asimov/newv/infra/conf"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/protocol"
+	. "github.com/asimov1234/newv/infra/conf"
 )
 
 func TestStringListUnmarshalError(t *testing.T) {

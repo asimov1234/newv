@@ -1,7 +1,7 @@
 package conf
 
 import (
-	"github.com/asimov/newv/proxy/dokodemo"
+	"github.com/asimov1234/newv/proxy/dokodemo"
 	"google.golang.org/protobuf/proto"
 )
 

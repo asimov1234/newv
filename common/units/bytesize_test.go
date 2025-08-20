@@ -3,7 +3,7 @@ package units_test
 import (
 	"testing"
 
-	"github.com/asimov/newv/common/units"
+	"github.com/asimov1234/newv/common/units"
 )
 
 func TestByteSizes(t *testing.T) {

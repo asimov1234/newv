@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/asimov/newv/common"
-	. "github.com/asimov/newv/common/strmatcher"
+	"github.com/asimov1234/newv/common"
+	. "github.com/asimov1234/newv/common/strmatcher"
 )
 
 func TestMatcherGroup(t *testing.T) {

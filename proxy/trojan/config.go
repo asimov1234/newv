@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/protocol"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/protocol"
 )
 
 // MemoryAccount is an account type converted from Account.

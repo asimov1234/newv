@@ -3,9 +3,9 @@ package routing
 import (
 	"context"
 
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/features"
-	"github.com/asimov/newv/transport"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/features"
+	"github.com/asimov1234/newv/transport"
 )
 
 // Dispatcher is a feature that dispatches inbound requests to outbound handlers based on rules.

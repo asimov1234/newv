@@ -5,13 +5,13 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/protocol"
-	"github.com/asimov/newv/common/uuid"
-	"github.com/asimov/newv/proxy/vmess"
-	. "github.com/asimov/newv/proxy/vmess/encoding"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/protocol"
+	"github.com/asimov1234/newv/common/uuid"
+	"github.com/asimov1234/newv/proxy/vmess"
+	. "github.com/asimov1234/newv/proxy/vmess/encoding"
 )
 
 func toAccount(a *vmess.Account) protocol.Account {

@@ -12,16 +12,16 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/asimov/newv/app/proxyman"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/serial"
-	"github.com/asimov/newv/core"
-	"github.com/asimov/newv/proxy/freedom"
-	v2http "github.com/asimov/newv/proxy/http"
-	v2httptest "github.com/asimov/newv/testing/servers/http"
-	"github.com/asimov/newv/testing/servers/tcp"
+	"github.com/asimov1234/newv/app/proxyman"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/serial"
+	"github.com/asimov1234/newv/core"
+	"github.com/asimov1234/newv/proxy/freedom"
+	v2http "github.com/asimov1234/newv/proxy/http"
+	v2httptest "github.com/asimov1234/newv/testing/servers/http"
+	"github.com/asimov1234/newv/testing/servers/tcp"
 )
 
 func TestHttpConformance(t *testing.T) {

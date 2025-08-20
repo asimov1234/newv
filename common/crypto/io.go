@@ -4,7 +4,7 @@ import (
 	"crypto/cipher"
 	"io"
 
-	"github.com/asimov/newv/common/buf"
+	"github.com/asimov1234/newv/common/buf"
 )
 
 type CryptionReader struct {

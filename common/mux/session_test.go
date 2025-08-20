@@ -3,7 +3,7 @@ package mux_test
 import (
 	"testing"
 
-	. "github.com/asimov/newv/common/mux"
+	. "github.com/asimov1234/newv/common/mux"
 )
 
 func TestSessionManagerAdd(t *testing.T) {

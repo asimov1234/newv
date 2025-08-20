@@ -4,7 +4,7 @@ import (
 	"crypto/cipher"
 	"testing"
 
-	. "github.com/asimov/newv/common/crypto"
+	. "github.com/asimov1234/newv/common/crypto"
 )
 
 const benchSize = 1024 * 1024

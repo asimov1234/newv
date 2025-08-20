@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/asimov/newv/common/signal"
+	. "github.com/asimov1234/newv/common/signal"
 )
 
 func TestActivityTimer(t *testing.T) {

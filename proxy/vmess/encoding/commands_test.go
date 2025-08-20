@@ -5,11 +5,11 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/protocol"
-	"github.com/asimov/newv/common/uuid"
-	. "github.com/asimov/newv/proxy/vmess/encoding"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/protocol"
+	"github.com/asimov1234/newv/common/uuid"
+	. "github.com/asimov1234/newv/proxy/vmess/encoding"
 )
 
 func TestSwitchAccount(t *testing.T) {

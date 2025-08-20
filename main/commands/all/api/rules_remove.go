@@ -3,8 +3,8 @@ package api
 import (
 	"fmt"
 
-	routerService "github.com/asimov/newv/app/router/command"
-	"github.com/asimov/newv/main/commands/base"
+	routerService "github.com/asimov1234/newv/app/router/command"
+	"github.com/asimov1234/newv/main/commands/base"
 )
 
 var cmdRemoveRules = &base.Command{

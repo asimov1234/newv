@@ -9,13 +9,13 @@ import (
 	"time"
 	_ "unsafe"
 
-	"github.com/asimov/newv/app/router"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/platform"
-	"github.com/asimov/newv/common/platform/filesystem"
-	"github.com/asimov/newv/common/serial"
-	. "github.com/asimov/newv/infra/conf"
+	"github.com/asimov1234/newv/app/router"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/platform"
+	"github.com/asimov1234/newv/common/platform/filesystem"
+	"github.com/asimov1234/newv/common/serial"
+	. "github.com/asimov1234/newv/infra/conf"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -4,7 +4,7 @@ import (
 	"net/netip"
 	"strconv"
 
-	"github.com/asimov/newv/common/net"
+	"github.com/asimov1234/newv/common/net"
 	"go4.org/netipx"
 )
 

@@ -6,11 +6,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/asimov/newv/common/protocol"
-	. "github.com/asimov/newv/common/reflect"
-	cserial "github.com/asimov/newv/common/serial"
-	iserial "github.com/asimov/newv/infra/conf/serial"
-	"github.com/asimov/newv/proxy/shadowsocks"
+	"github.com/asimov1234/newv/common/protocol"
+	. "github.com/asimov1234/newv/common/reflect"
+	cserial "github.com/asimov1234/newv/common/serial"
+	iserial "github.com/asimov1234/newv/infra/conf/serial"
+	"github.com/asimov1234/newv/proxy/shadowsocks"
 )
 
 func TestMashalAccount(t *testing.T) {

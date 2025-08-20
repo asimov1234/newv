@@ -15,9 +15,9 @@ import (
 
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/asimov/newv/common/buf"
-	creflect "github.com/asimov/newv/common/reflect"
-	"github.com/asimov/newv/main/commands/base"
+	"github.com/asimov1234/newv/common/buf"
+	creflect "github.com/asimov1234/newv/common/reflect"
+	"github.com/asimov1234/newv/main/commands/base"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"
 )

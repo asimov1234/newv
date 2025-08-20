@@ -1,8 +1,8 @@
 package dns
 
 import (
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/features"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/features"
 )
 
 type FakeDNSEngine interface {

@@ -7,10 +7,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/asimov/newv/common/dice"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/protocol"
-	"github.com/asimov/newv/proxy/vmess/aead"
+	"github.com/asimov1234/newv/common/dice"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/protocol"
+	"github.com/asimov1234/newv/proxy/vmess/aead"
 )
 
 // TimedUserValidator is a user Validator based on time.

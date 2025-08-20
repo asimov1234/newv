@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/errors"
-	. "github.com/asimov/newv/common/retry"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/errors"
+	. "github.com/asimov1234/newv/common/retry"
 )
 
 var errorTestOnly = errors.New("this is a fake error")

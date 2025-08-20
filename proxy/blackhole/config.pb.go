@@ -7,7 +7,7 @@
 package blackhole
 
 import (
-	serial "github.com/asimov/newv/common/serial"
+	serial "github.com/asimov1234/newv/common/serial"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

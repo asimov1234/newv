@@ -4,8 +4,8 @@
 package tcp
 
 import (
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/transport/internet/stat"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/transport/internet/stat"
 )
 
 func GetOriginalDestination(conn stat.Connection) (net.Destination, error) {

@@ -7,8 +7,8 @@ import (
 	"io"
 	"syscall"
 
-	"github.com/asimov/newv/common/platform"
-	"github.com/asimov/newv/features/stats"
+	"github.com/asimov1234/newv/common/platform"
+	"github.com/asimov1234/newv/features/stats"
 )
 
 type allocStrategy struct {

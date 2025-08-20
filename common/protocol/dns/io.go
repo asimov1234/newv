@@ -4,10 +4,10 @@ import (
 	"encoding/binary"
 	"sync"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/serial"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/serial"
 	"golang.org/x/net/dns/dnsmessage"
 )
 

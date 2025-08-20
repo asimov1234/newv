@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/task"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/task"
 )
 
 type ActivityUpdater interface {

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asimov/newv/infra/conf/cfgcommon/duration"
+	"github.com/asimov1234/newv/infra/conf/cfgcommon/duration"
 )
 
 type testWithDuration struct {

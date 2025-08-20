@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/asimov/newv/common/net"
+	"github.com/asimov1234/newv/common/net"
 )
 
 // ParseXForwardedFor parses X-Forwarded-For header in http headers, and return the IP list in it.

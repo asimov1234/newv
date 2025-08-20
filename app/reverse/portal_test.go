@@ -3,8 +3,8 @@ package reverse_test
 import (
 	"testing"
 
-	"github.com/asimov/newv/app/reverse"
-	"github.com/asimov/newv/common"
+	"github.com/asimov1234/newv/app/reverse"
+	"github.com/asimov1234/newv/common"
 )
 
 func TestStaticPickerEmpty(t *testing.T) {

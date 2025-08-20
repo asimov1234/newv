@@ -1,7 +1,7 @@
 package features
 
 import (
-	"github.com/asimov/newv/common"
+	"github.com/asimov1234/newv/common"
 )
 
 // Feature is the interface for Xray features. All features must implement this interface.

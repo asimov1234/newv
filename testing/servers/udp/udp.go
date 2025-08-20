@@ -3,7 +3,7 @@ package udp
 import (
 	"fmt"
 
-	"github.com/asimov/newv/common/net"
+	"github.com/asimov1234/newv/common/net"
 )
 
 type Server struct {

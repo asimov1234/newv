@@ -9,11 +9,11 @@ import (
 	"io"
 
 	"github.com/quic-go/quic-go/quicvarint"
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/bytespool"
-	"github.com/asimov/newv/common/errors"
-	ptls "github.com/asimov/newv/common/protocol/tls"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/bytespool"
+	"github.com/asimov1234/newv/common/errors"
+	ptls "github.com/asimov1234/newv/common/protocol/tls"
 	"golang.org/x/crypto/hkdf"
 )
 

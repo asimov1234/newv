@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/asimov/newv/core"
-	"github.com/asimov/newv/main/commands/base"
+	"github.com/asimov1234/newv/core"
+	"github.com/asimov1234/newv/main/commands/base"
 )
 
 var cmdVersion = &base.Command{

@@ -3,9 +3,9 @@ package pipe
 import (
 	"context"
 
-	"github.com/asimov/newv/common/signal"
-	"github.com/asimov/newv/common/signal/done"
-	"github.com/asimov/newv/features/policy"
+	"github.com/asimov1234/newv/common/signal"
+	"github.com/asimov1234/newv/common/signal/done"
+	"github.com/asimov1234/newv/features/policy"
 )
 
 // Option for creating new Pipes.

@@ -1,8 +1,8 @@
 package udp
 
 import (
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/net"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/net"
 )
 
 // Packet is a UDP packet together with its source and destination address.

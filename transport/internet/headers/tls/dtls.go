@@ -3,8 +3,8 @@ package tls
 import (
 	"context"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/dice"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/dice"
 )
 
 // DTLS writes header as DTLS. See https://tools.ietf.org/html/rfc6347

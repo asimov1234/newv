@@ -6,10 +6,10 @@ import (
 	"net"
 	"strings"
 
-	"github.com/asimov/newv/common/errors"
-	v2net "github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/protocol"
-	"github.com/asimov/newv/proxy/freedom"
+	"github.com/asimov1234/newv/common/errors"
+	v2net "github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/protocol"
+	"github.com/asimov1234/newv/proxy/freedom"
 	"google.golang.org/protobuf/proto"
 )
 

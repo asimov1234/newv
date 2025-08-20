@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asimov/newv/common/net"
-	. "github.com/asimov/newv/common/protocol"
+	"github.com/asimov1234/newv/common/net"
+	. "github.com/asimov1234/newv/common/protocol"
 )
 
 func TestServerList(t *testing.T) {

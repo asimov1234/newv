@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/protocol"
-	"github.com/asimov/newv/common/serial"
-	"github.com/asimov/newv/common/uuid"
-	"github.com/asimov/newv/proxy/vmess"
-	"github.com/asimov/newv/proxy/vmess/inbound"
-	"github.com/asimov/newv/proxy/vmess/outbound"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/protocol"
+	"github.com/asimov1234/newv/common/serial"
+	"github.com/asimov1234/newv/common/uuid"
+	"github.com/asimov1234/newv/proxy/vmess"
+	"github.com/asimov1234/newv/proxy/vmess/inbound"
+	"github.com/asimov1234/newv/proxy/vmess/outbound"
 	"google.golang.org/protobuf/proto"
 )
 

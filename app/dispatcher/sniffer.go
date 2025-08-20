@@ -3,13 +3,13 @@ package dispatcher
 import (
 	"context"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/protocol/bittorrent"
-	"github.com/asimov/newv/common/protocol/http"
-	"github.com/asimov/newv/common/protocol/quic"
-	"github.com/asimov/newv/common/protocol/tls"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/protocol/bittorrent"
+	"github.com/asimov1234/newv/common/protocol/http"
+	"github.com/asimov1234/newv/common/protocol/quic"
+	"github.com/asimov1234/newv/common/protocol/tls"
 )
 
 type SniffResult interface {

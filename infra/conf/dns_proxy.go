@@ -1,9 +1,9 @@
 package conf
 
 import (
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/proxy/dns"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/proxy/dns"
 	"google.golang.org/protobuf/proto"
 )
 

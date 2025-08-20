@@ -3,7 +3,7 @@ package wireguard
 import (
 	"context"
 
-	"github.com/asimov/newv/common/errors"
+	"github.com/asimov1234/newv/common/errors"
 )
 
 func (c *DeviceConfig) preferIP4() bool {

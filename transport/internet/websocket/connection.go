@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/common/serial"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/common/serial"
 )
 
 var _ buf.Writer = (*connection)(nil)

@@ -4,13 +4,13 @@ import (
 	"context"
 	"io"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/cmdarg"
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/core"
-	"github.com/asimov/newv/infra/conf"
-	"github.com/asimov/newv/infra/conf/serial"
-	"github.com/asimov/newv/main/confloader"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/cmdarg"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/core"
+	"github.com/asimov1234/newv/infra/conf"
+	"github.com/asimov1234/newv/infra/conf/serial"
+	"github.com/asimov1234/newv/main/confloader"
 )
 
 func init() {

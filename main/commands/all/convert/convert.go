@@ -1,7 +1,7 @@
 package convert
 
 import (
-	"github.com/asimov/newv/main/commands/base"
+	"github.com/asimov1234/newv/main/commands/base"
 )
 
 // CmdConvert do config convertion

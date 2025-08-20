@@ -3,7 +3,7 @@ package tls_test
 import (
 	"testing"
 
-	. "github.com/asimov/newv/common/protocol/tls"
+	. "github.com/asimov1234/newv/common/protocol/tls"
 )
 
 func TestTLSHeaders(t *testing.T) {

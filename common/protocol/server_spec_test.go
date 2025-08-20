@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/net"
-	. "github.com/asimov/newv/common/protocol"
-	"github.com/asimov/newv/common/uuid"
-	"github.com/asimov/newv/proxy/vmess"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/net"
+	. "github.com/asimov1234/newv/common/protocol"
+	"github.com/asimov1234/newv/common/uuid"
+	"github.com/asimov1234/newv/proxy/vmess"
 )
 
 func TestAlwaysValidStrategy(t *testing.T) {

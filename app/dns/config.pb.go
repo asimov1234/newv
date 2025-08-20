@@ -7,8 +7,8 @@
 package dns
 
 import (
-	router "github.com/asimov/newv/app/router"
-	net "github.com/asimov/newv/common/net"
+	router "github.com/asimov1234/newv/app/router"
+	net "github.com/asimov1234/newv/common/net"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

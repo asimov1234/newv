@@ -3,7 +3,7 @@ package cache_test
 import (
 	"testing"
 
-	. "github.com/asimov/newv/common/cache"
+	. "github.com/asimov1234/newv/common/cache"
 )
 
 func TestLruReplaceValue(t *testing.T) {

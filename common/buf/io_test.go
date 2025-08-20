@@ -5,9 +5,9 @@ import (
 	"io"
 	"testing"
 
-	. "github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/testing/servers/tcp"
+	. "github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/testing/servers/tcp"
 )
 
 func TestWriterCreation(t *testing.T) {

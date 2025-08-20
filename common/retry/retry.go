@@ -1,9 +1,9 @@
-package retry // import "github.com/asimov/newv/common/retry"
+package retry // import "github.com/asimov1234/newv/common/retry"
 
 import (
 	"time"
 
-	"github.com/asimov/newv/common/errors"
+	"github.com/asimov1234/newv/common/errors"
 )
 
 var ErrRetryFailed = errors.New("all retry attempts failed")

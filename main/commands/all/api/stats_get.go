@@ -1,8 +1,8 @@
 package api
 
 import (
-	statsService "github.com/asimov/newv/app/stats/command"
-	"github.com/asimov/newv/main/commands/base"
+	statsService "github.com/asimov1234/newv/app/stats/command"
+	"github.com/asimov1234/newv/main/commands/base"
 )
 
 var cmdGetStats = &base.Command{

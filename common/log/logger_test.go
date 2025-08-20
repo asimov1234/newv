@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	. "github.com/asimov/newv/common/log"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	. "github.com/asimov1234/newv/common/log"
 )
 
 func TestFileLogger(t *testing.T) {

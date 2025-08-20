@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/asimov/newv/common"
-	"github.com/asimov/newv/common/buf"
-	. "github.com/asimov/newv/transport/internet/headers/srtp"
+	"github.com/asimov1234/newv/common"
+	"github.com/asimov1234/newv/common/buf"
+	. "github.com/asimov1234/newv/transport/internet/headers/srtp"
 )
 
 func TestSRTPWrite(t *testing.T) {

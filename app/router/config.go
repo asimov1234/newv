@@ -5,9 +5,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/asimov/newv/common/errors"
-	"github.com/asimov/newv/features/outbound"
-	"github.com/asimov/newv/features/routing"
+	"github.com/asimov1234/newv/common/errors"
+	"github.com/asimov1234/newv/features/outbound"
+	"github.com/asimov1234/newv/features/routing"
 )
 
 type Rule struct {

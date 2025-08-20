@@ -3,13 +3,13 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/protocol"
-	"github.com/asimov/newv/common/serial"
-	. "github.com/asimov/newv/infra/conf"
-	"github.com/asimov/newv/proxy/vmess"
-	"github.com/asimov/newv/proxy/vmess/inbound"
-	"github.com/asimov/newv/proxy/vmess/outbound"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/protocol"
+	"github.com/asimov1234/newv/common/serial"
+	. "github.com/asimov1234/newv/infra/conf"
+	"github.com/asimov1234/newv/proxy/vmess"
+	"github.com/asimov1234/newv/proxy/vmess/inbound"
+	"github.com/asimov1234/newv/proxy/vmess/outbound"
 )
 
 func TestVMessOutbound(t *testing.T) {

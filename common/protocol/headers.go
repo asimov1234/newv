@@ -3,9 +3,9 @@ package protocol
 import (
 	"runtime"
 
-	"github.com/asimov/newv/common/bitmask"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/uuid"
+	"github.com/asimov1234/newv/common/bitmask"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/uuid"
 	"golang.org/x/sys/cpu"
 )
 

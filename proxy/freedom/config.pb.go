@@ -7,7 +7,7 @@
 package freedom
 
 import (
-	protocol "github.com/asimov/newv/common/protocol"
+	protocol "github.com/asimov1234/newv/common/protocol"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

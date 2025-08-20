@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/asimov/newv/common/buf"
-	"github.com/asimov/newv/common/net"
-	"github.com/asimov/newv/common/task"
-	"github.com/asimov/newv/transport/internet"
-	"github.com/asimov/newv/transport/pipe"
+	"github.com/asimov1234/newv/common/buf"
+	"github.com/asimov1234/newv/common/net"
+	"github.com/asimov1234/newv/common/task"
+	"github.com/asimov1234/newv/transport/internet"
+	"github.com/asimov1234/newv/transport/pipe"
 )
 
 type Server struct {
