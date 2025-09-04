@@ -14,8 +14,8 @@ require (
 	github.com/pires/go-proxyproto v0.8.0
 	github.com/quic-go/quic-go v0.49.0
 	github.com/refraction-networking/utls v1.6.7
-	github.com/sagernet/sing v0.5.1
-	github.com/sagernet/sing-shadowsocks v0.2.7
+	github.com/sagernet/sing v0.7.6
+	github.com/sagernet/sing-shadowsocks v0.2.9
 	github.com/seiflotfy/cuckoofilter v0.0.0-20240715131351-a2f2c23f1771
 	github.com/stretchr/testify v1.10.0
 	github.com/v2fly/ss-bloomring v0.0.0-20210312155135-28617310f63e
@@ -31,7 +31,7 @@ require (
 	google.golang.org/protobuf v1.36.5
 	gvisor.dev/gvisor v0.0.0-20240320123526-dc6abceb7ff0
 	h12.io/socks v1.0.3
-	lukechampine.com/blake3 v1.3.0
+	lukechampine.com/blake3 v1.4.1
 )
 
 require (
